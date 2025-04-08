@@ -1,3 +1,5 @@
 # IICPP_Clone
 Mark IIC+/++ Clone
-Inspired by Academic Interest and "...And Justice For All"
+
+This project was done out of academic interest, as well as a love for the tones from Metallica's "...And Justice For All".
+
