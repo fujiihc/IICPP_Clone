@@ -1108,7 +1108,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "220uF are 63V on Original\nSLOCLONE uses 100V"
+	(text "C6 and C7 220uF are 63V on Original\nSLOCLONE uses 100V"
 		(exclude_from_sim no)
 		(at 181.356 46.99 0)
 		(effects

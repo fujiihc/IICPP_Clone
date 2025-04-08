@@ -2913,7 +2913,7 @@
 		)
 		(uuid "0afccc98-7d3f-4339-a362-c8da51bffe0c")
 	)
-	(text "C28 Unknown Voltage\nAssumed to be Consistent W/ Other T322 Cathode Bypass Caps"
+	(text "C25 Unknown Voltage\nAssumed to be Consistent W/ Other T322 Cathode Bypass Caps"
 		(exclude_from_sim no)
 		(at 396.494 230.124 0)
 		(effects
@@ -2922,6 +2922,16 @@
 			)
 		)
 		(uuid "0e3a25e2-6e91-4439-b9e1-d9b4a89dba67")
+	)
+	(text "C10, SW3 for C++"
+		(exclude_from_sim no)
+		(at 285.496 131.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1322b9ab-4054-4ab4-9892-1e946e385bbf")
 	)
 	(text "16V on SLOCLONE"
 		(exclude_from_sim no)
@@ -2973,7 +2983,7 @@
 		)
 		(uuid "48a14a81-40ea-4620-b213-419c289ff4ef")
 	)
-	(text "R24 Hardwired for C++"
+	(text "R36 Hardwired for C++"
 		(exclude_from_sim no)
 		(at 123.952 231.394 0)
 		(effects
@@ -2983,7 +2993,7 @@
 		)
 		(uuid "57691a3f-4b17-45dd-be82-68566c16a6fb")
 	)
-	(text "Remove C24 on Simul (SLOCLONE)\nKeep C24 on Simul (JRB32)\n"
+	(text "Remove C30 on Simul (SLOCLONE)\nKeep C30 on Simul (JRB32)\n"
 		(exclude_from_sim no)
 		(at 238.76 232.156 0)
 		(effects
@@ -3033,7 +3043,7 @@
 		)
 		(uuid "7bdd23bf-0c5a-409d-a5ae-abb4b7c5051e")
 	)
-	(text "R22 Potentially Optional?\nUsed to even out Master 1 Taper"
+	(text "R5 Potentially Optional?\nUsed to even out Master 1 Taper"
 		(exclude_from_sim no)
 		(at 405.892 55.372 0)
 		(effects
@@ -3043,7 +3053,7 @@
 		)
 		(uuid "8850b29a-6462-4481-8e66-9856c0adddeb")
 	)
-	(text "Remove C31 on Simul"
+	(text "Remove C19 on Simul"
 		(exclude_from_sim no)
 		(at 201.93 159.512 0)
 		(effects
@@ -3052,6 +3062,16 @@
 			)
 		)
 		(uuid "911ec534-4a77-4ee4-a73f-4313fcb4b6f1")
+	)
+	(text "R12, C12, SW2 for C++"
+		(exclude_from_sim no)
+		(at 248.158 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9768cdf7-eafd-442f-95b3-5e118868eb11")
 	)
 	(text "EQ IN"
 		(exclude_from_sim no)

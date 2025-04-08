@@ -693,16 +693,16 @@
 		(uuid "111ae040-95cc-4537-8e32-177bc7ffe0f5")
 	)
 	(junction
+		(at 93.98 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1178d5ec-2911-4c4e-b92b-262472ad1462")
+	)
+	(junction
 		(at 130.81 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16b998dd-23a9-4dbb-94af-bf07c43ea38e")
-	)
-	(junction
-		(at 93.98 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37ab679b-3695-4143-979b-f175c4c4f863")
 	)
 	(junction
 		(at 114.3 139.7)
@@ -924,16 +924,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 144.78) (xy 109.22 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c9a5f84-bb3e-45cd-8807-fcef4a1bfae5")
-	)
-	(wire
-		(pts
 			(xy 109.22 102.87) (xy 109.22 144.78)
 		)
 		(stroke
@@ -981,6 +971,16 @@
 			(type default)
 		)
 		(uuid "594bcffa-bb9f-491c-89dc-c45032375ef7")
+	)
+	(wire
+		(pts
+			(xy 93.98 144.78) (xy 109.22 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602655d1-5ee0-4e64-9c48-07bc04a3a34d")
 	)
 	(wire
 		(pts
@@ -1356,7 +1356,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "095d379a-74ae-4f8e-9161-25b65fcc07c0")
 		(property "Reference" "L1"
 			(at 100.33 120.6499 0)
@@ -1401,6 +1400,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Notes" "Mesa 519401"
+			(at 100.584 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1496,7 +1503,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "265933ed-8cb4-45f2-add0-a792fa6085c4")
 		(property "Reference" "L2"
 			(at 115.57 120.6499 0)
@@ -1541,6 +1547,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Notes" "Mesa 519390"
+			(at 115.824 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2020,7 +2034,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c15ada7-8976-48ee-8fe0-29b3f6478989")
 		(property "Reference" "L5"
 			(at 165.1 120.6499 0)
@@ -2067,6 +2080,14 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" "Mesa 519033"
+			(at 165.354 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a1b13246-f8fb-4780-9e0f-6da803197dc1")
 		)
@@ -2090,7 +2111,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d47926c-af46-4397-a9b1-4cf4a6baaf59")
 		(property "Reference" "L3"
 			(at 132.08 120.6499 0)
@@ -2135,6 +2155,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Notes" "Mesa 519220"
+			(at 132.334 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2692,7 +2720,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6909d91-2319-4e36-866b-215e8ca54593")
 		(property "Reference" "L4"
 			(at 148.59 120.6499 0)
@@ -2737,6 +2764,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Notes" "Mesa 519068"
+			(at 148.844 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
