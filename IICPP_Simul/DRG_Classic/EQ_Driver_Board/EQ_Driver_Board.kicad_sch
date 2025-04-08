@@ -1161,10 +1161,10 @@
 		)
 		(uuid "68903dc5-b7d7-4546-bc8d-d526f5a7ce75")
 	)
-	(text_box "TO DO\n----------------------------------------\nMake note of what is on board and what is not...\nAdd empty holes to go out for switches, pots, ground, etc.\nNeed 12AX7 Footprint.\nMake sure of trace width for signals, headters, VIAs, etc.\nLOOK MORE INTO ALL POT VALUES/TAPERS MORE\nResistors for heaters? Look into how heaters are usually AC run\nHow does the footswitch for eq, lead, and reverb work???\nSLAVE/DIRECT OUT? HOW DOES THIS TAP DIFFER FROM SEND?\n\nDONE\n----------------------------------------\nWHICH SIDE IS THE SWITCH ON FOR C++??\n-Mesa Mark III Schematic Says After C9\n\nFIND TAPER FOR RV5 (Lead Master)\n-General Consensus Says A, Consistent W/ Master 1\n\nLABEL ANODE/PLATE AND POWER RESISTOR WATTAGES\n-Generally 2W Metal Film, 3W if Labelled Otherwise\n-Anode/Plate Resistors are Part of Signal, Therefore Metal Film >> Metal Oxide"
+	(text_box "TO DO\n----------------------------------------\nLook for transistor replacements\nLook for 100V and 63V footprints for Power Electros\nLook for Long and short 63V footprints for Other Electros\nAdd empty holes to go out\nMake sure of trace width\nFind out if 2W is appropriate for 470 and 220\n\nDONE\n----------------------------------------\n"
 		(exclude_from_sim no)
 		(at 199.39 88.9 0)
-		(size 64.77 53.34)
+		(size 64.77 33.02)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2019,7 +2019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ee75317-1ad8-49ad-807c-f00a9b15c4a3")
-		(property "Reference" "R57"
+		(property "Reference" "R7"
 			(at 133.35 95.2499 0)
 			(effects
 				(font
@@ -2073,7 +2073,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R57")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2089,7 +2089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20719983-b012-447b-a214-7af34cc0d418")
-		(property "Reference" "R59"
+		(property "Reference" "R9"
 			(at 161.29 95.2499 0)
 			(effects
 				(font
@@ -2143,7 +2143,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R59")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2158,7 +2158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "276f8966-3837-4839-b573-b64dc493e060")
-		(property "Reference" "C36"
+		(property "Reference" "C5"
 			(at 164.719 74.93 90)
 			(effects
 				(font
@@ -2218,7 +2218,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "C36")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2234,7 +2234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ce28591-6f17-4471-808d-40573ba1b93c")
-		(property "Reference" "R58"
+		(property "Reference" "R8"
 			(at 153.67 76.2 90)
 			(effects
 				(font
@@ -2286,7 +2286,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R58")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2378,7 +2378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a0bbc92-7c03-456b-8eed-2d13a321251e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR03"
 			(at 191.77 82.55 0)
 			(effects
 				(font
@@ -2428,7 +2428,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "#PWR017")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d4224af-f97d-45f9-9d37-ae454fb9cfa5")
-		(property "Reference" "C34"
+		(property "Reference" "C2"
 			(at 77.47 74.93 90)
 			(effects
 				(font
@@ -2579,7 +2579,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "C34")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2595,7 +2595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41ffd66d-1aa0-456c-b56d-7a7c74d162e3")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 210.82 52.07 0)
 			(effects
 				(font
@@ -2665,7 +2665,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2680,7 +2680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52d25e3f-c02c-431d-8c6f-3b98e818a3c0")
-		(property "Reference" "R68"
+		(property "Reference" "R6"
 			(at 109.22 93.98 90)
 			(effects
 				(font
@@ -2732,7 +2732,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R68")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2748,7 +2748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5719321a-2c90-4c4c-9c1e-adcfb88d7b42")
-		(property "Reference" "R54"
+		(property "Reference" "R3"
 			(at 87.63 95.2499 0)
 			(effects
 				(font
@@ -2802,7 +2802,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R54")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2818,7 +2818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aeabbca-f9bc-49c0-b7e4-4da0460c0645")
-		(property "Reference" "R55"
+		(property "Reference" "R4"
 			(at 92.71 52.07 90)
 			(effects
 				(font
@@ -2870,7 +2870,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R55")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2886,7 +2886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65ee0a99-9198-4bc5-8c1a-80703822d394")
-		(property "Reference" "C44"
+		(property "Reference" "C4"
 			(at 153.67 97.79 90)
 			(effects
 				(font
@@ -2946,7 +2946,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "C44")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2961,7 +2961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d76ac1c-c17c-49d1-9354-285f259eaf5e")
-		(property "Reference" "R61"
+		(property "Reference" "R11"
 			(at 181.61 52.07 90)
 			(effects
 				(font
@@ -3021,7 +3021,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R61")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3037,7 +3037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81f0e947-64ed-48b6-be1a-3cf98cbf4189")
-		(property "Reference" "R52"
+		(property "Reference" "R1"
 			(at 73.66 95.2499 0)
 			(effects
 				(font
@@ -3091,7 +3091,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R52")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3107,7 +3107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "846ee309-2a17-4952-8974-72b8aa471259")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR02"
 			(at 158.75 106.68 0)
 			(effects
 				(font
@@ -3157,7 +3157,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "#PWR016")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3173,7 +3173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9413566d-4102-4bf7-b758-5a6f45f2df69")
-		(property "Reference" "R60"
+		(property "Reference" "R10"
 			(at 172.72 95.2499 0)
 			(effects
 				(font
@@ -3227,7 +3227,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R60")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97bece6c-d2b3-42b8-a038-6f34d24a1ecc")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR01"
 			(at 71.12 72.39 0)
 			(effects
 				(font
@@ -3369,7 +3369,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "#PWR015")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3461,7 +3461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9657422-7979-46ed-8793-7f2c3eb37ed5")
-		(property "Reference" "R56"
+		(property "Reference" "R5"
 			(at 101.6 95.2499 0)
 			(effects
 				(font
@@ -3515,7 +3515,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R56")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3530,7 +3530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb45cbeb-5a44-4fc4-a4cf-ad12758eb117")
-		(property "Reference" "C37"
+		(property "Reference" "C6"
 			(at 175.26 68.1989 0)
 			(effects
 				(font
@@ -3592,7 +3592,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "C37")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3607,7 +3607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7cbcf4f-85d3-418e-ab5a-f8ba80277d9b")
-		(property "Reference" "C35"
+		(property "Reference" "C3"
 			(at 148.59 64.77 90)
 			(effects
 				(font
@@ -3667,7 +3667,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "C35")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3682,7 +3682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6047796-769e-4d43-acb4-883d7b01d0d1")
-		(property "Reference" "C38"
+		(property "Reference" "C7"
 			(at 195.58 68.1989 0)
 			(effects
 				(font
@@ -3744,7 +3744,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "C38")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3760,7 +3760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e468b40e-0fb7-437c-bf58-1e467337ffe9")
-		(property "Reference" "R53"
+		(property "Reference" "R2"
 			(at 87.63 68.5799 0)
 			(effects
 				(font
@@ -3814,7 +3814,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R53")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3829,7 +3829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e80866a3-48b2-4153-8e24-078e66a9a27d")
-		(property "Reference" "R62"
+		(property "Reference" "R12"
 			(at 199.39 52.07 90)
 			(effects
 				(font
@@ -3889,7 +3889,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "R62")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3904,7 +3904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5e084e4-be24-483d-8606-c0bf33c4aca1")
-		(property "Reference" "C33"
+		(property "Reference" "C1"
 			(at 74.93 61.8489 0)
 			(effects
 				(font
@@ -3966,7 +3966,7 @@
 		(instances
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
-					(reference "C33")
+					(reference "C1")
 					(unit 1)
 				)
 			)
