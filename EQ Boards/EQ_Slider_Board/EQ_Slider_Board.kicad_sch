@@ -5,6 +5,113 @@
 	(uuid "731158be-e106-4a86-bf06-392da2e983b4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -639,9 +746,9 @@
 		)
 		(uuid "61df8ba2-2fff-41b5-ac59-c02bab32f48d")
 	)
-	(text_box "TO DO\n----------------------------------------\nMake note of what is on board and what is not...\nAdd empty holes to go out \nMake sure of trace width\n\nFilm or tant for caps?\nFind footprint for Mesa Sliders\nDo they use the minis?\n\nDONE\n----------------------------------------\n"
+	(text_box "TO DO\n----------------------------------------\nMake note of what is on board and what is not...\n\n\n\nFind footprint for Mesa Sliders\n\n\nDONE\n----------------------------------------\n"
 		(exclude_from_sim no)
-		(at 195.58 55.88 0)
+		(at 187.96 73.66 0)
 		(size 64.77 35.56)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -659,7 +766,7 @@
 		)
 		(uuid "6ce94d99-8ec3-4584-b05f-b460a085e44d")
 	)
-	(text_box "EQ"
+	(text_box "EQ Slider"
 		(exclude_from_sim no)
 		(at 71.12 68.58 0)
 		(size 30.48 6.35)
@@ -1114,7 +1221,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 139.7) (xy 170.18 139.7)
+			(xy 163.83 139.7) (xy 172.72 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1282,72 +1389,6 @@
 		)
 		(uuid "ff6da1e0-4b97-4c49-9116-80f6e3aa5920")
 	)
-	(global_label "GEQ"
-		(shape output)
-		(at 170.18 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5cfbe8d6-b139-4c1d-8dac-1a1863f70a60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.9147 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EQ Left"
-		(shape output)
-		(at 125.73 72.39 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d0df24c-b942-4056-9663-309b02d8b63c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 62.3896 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EQ Right"
-		(shape output)
-		(at 158.75 72.39 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cbc6b3cc-0045-4d62-8fd8-a91f10a40b74")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.75 61.0592 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:L")
 		(at 99.06 121.92 0)
@@ -1453,7 +1494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 145.542 111.76 90)
 			(effects
 				(font
@@ -1600,7 +1641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 97.282 111.76 90)
 			(effects
 				(font
@@ -1714,6 +1755,73 @@
 			(project "EQ_Board"
 				(path "/731158be-e106-4a86-bf06-392da2e983b4"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 172.72 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4befbd3b-4901-4399-bbd2-1367174908a0")
+		(property "Reference" "TP3"
+			(at 177.8 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GEQ"
+			(at 177.8 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+			(at 172.72 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 172.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "212adecc-007c-404f-9b88-fe45d1686634")
+		)
+		(instances
+			(project "EQ_Slider_Board"
+				(path "/731158be-e106-4a86-bf06-392da2e983b4"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -1984,7 +2092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 129.032 111.76 90)
 			(effects
 				(font
@@ -2207,7 +2315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
 			(at 113.3348 128.27 0)
 			(effects
 				(font
@@ -2446,7 +2554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 162.052 111.76 90)
 			(effects
 				(font
@@ -2516,7 +2624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 112.522 111.76 90)
 			(effects
 				(font
@@ -2585,7 +2693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal"
 			(at 98.0948 128.27 0)
 			(effects
 				(font
@@ -2662,7 +2770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
 			(at 129.8448 128.27 0)
 			(effects
 				(font
@@ -2784,6 +2892,140 @@
 			(project "EQ_Board"
 				(path "/731158be-e106-4a86-bf06-392da2e983b4"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef464cb4-ffe1-4d0d-ba0b-548d9eba4045")
+		(property "Reference" "TP1"
+			(at 128.27 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cut (L)"
+			(at 128.27 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee03f045-a3f2-43fa-a7bb-5f993517e7f0")
+		)
+		(instances
+			(project ""
+				(path "/731158be-e106-4a86-bf06-392da2e983b4"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efabe217-8b80-4f92-a688-8ac24f71ed36")
+		(property "Reference" "TP2"
+			(at 161.29 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Boost (R)"
+			(at 161.29 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32d6bc7a-ba79-4b0f-baed-46e27038af55")
+		)
+		(instances
+			(project "EQ_Slider_Board"
+				(path "/731158be-e106-4a86-bf06-392da2e983b4"
+					(reference "TP2")
 					(unit 1)
 				)
 			)

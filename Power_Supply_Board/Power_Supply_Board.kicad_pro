@@ -249,7 +249,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EQ_Driver_Board.kicad_pro",
+    "filename": "Power_Supply_Board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -409,7 +409,7 @@
   },
   "sheets": [
     [
-      "8b3e6737-4f8d-464d-ab54-70eaaf54bfcf",
+      "f42831a0-a43a-4f73-b829-ec05b95cdb03",
       "Root"
     ]
   ],

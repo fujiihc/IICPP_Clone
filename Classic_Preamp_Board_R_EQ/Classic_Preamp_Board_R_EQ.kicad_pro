@@ -249,7 +249,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EQ_Board.kicad_pro",
+    "filename": "Classic_Preamp_Board_R_EQ.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -409,7 +409,7 @@
   },
   "sheets": [
     [
-      "731158be-e106-4a86-bf06-392da2e983b4",
+      "d2a57415-b916-4a6a-96fe-9ce3b49127ab",
       "Root"
     ]
   ],
