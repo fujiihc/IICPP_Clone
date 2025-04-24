@@ -21,5 +21,16 @@ An important note, this project is for educational purposes and personal use onl
 ## Table of Contents
 
 ## Thank You's
+The following people have been invaluable in the progress of this project, both directly and indirectly. Whether they posted schematics that they traced, or in-depth gut shots or photos of their own builds, or even answered my questions when I ran into roadblocks, I would like to thank them. I wouldn't have made this much progress without them:
+
+[JAY OMEGA](https://boogieforum.com/members/jay-omega.83481/)
+
+[JRB32](https://boogieforum.com/members/jrb32.41252/)
+
+[DANO](https://boogieforum.com/members/dan__o.6723/)
+
+[DANN VALENTINO](https://www.facebook.com/dann.valentino/)
+
+[MATADOR](https://boogieforum.com/members/matador.84058/)
 
 ## To-Do/Future Plans
