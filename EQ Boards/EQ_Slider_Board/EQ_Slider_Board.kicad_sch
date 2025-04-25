@@ -724,6 +724,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "C5: 0.033uF 50V Film Cap \nUsed Instead"
+		(exclude_from_sim no)
+		(at 185.674 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "120f6a3b-585f-4277-b3cd-970addb97391")
+	)
+	(text "C4: T356 Used\nT110, and Film Caps\nAvailable As Well"
+		(exclude_from_sim no)
+		(at 150.876 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1681369-a38e-4bd1-b656-0103240a10ee")
+	)
+	(text "C1, C2, C3: T322 Used"
+		(exclude_from_sim no)
+		(at 115.062 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd377dd7-305d-4c46-b62f-4fad003ec058")
+	)
 	(text_box "ALL RESISTORS ARE 1W METAL FILM UNLESS LABELLED OTHERWISE\nCAP VOLTAGES AND MODELS ARE SPECIFIC TO MY BUILD\nSCHEMATIC MODELED AFTER SLOCLONE, DANO, JAY OMEGA, AND JRB32 VERSIONS"
 		(exclude_from_sim no)
 		(at 62.23 43.18 0)
@@ -746,7 +776,7 @@
 		)
 		(uuid "61df8ba2-2fff-41b5-ac59-c02bab32f48d")
 	)
-	(text_box "TO DO\n----------------------------------------\nMake note of what is on board and what is not...\n\n\n\nFind footprint for Mesa Sliders\n\n\nDONE\n----------------------------------------\n"
+	(text_box "TO DO\n----------------------------------------\nMake note of what is on board and what is not...\n\nFind boost and cut filter points\n\n\nDONE\n----------------------------------------\n"
 		(exclude_from_sim no)
 		(at 187.96 73.66 0)
 		(size 64.77 35.56)
@@ -1416,7 +1446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HiroFootprints:MB Inductor"
 			(at 99.06 121.92 0)
 			(effects
 				(font
@@ -1563,7 +1593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HiroFootprints:MB Inductor"
 			(at 114.3 121.92 0)
 			(effects
 				(font
@@ -1779,7 +1809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GEQ"
+		(property "Value" "GEQ LDR"
 			(at 177.8 140.9699 90)
 			(effects
 				(font
@@ -1854,7 +1884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 162.8648 128.27 0)
 			(effects
 				(font
@@ -1931,7 +1961,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HiroFootprints:Mesa 588536"
 			(at 158.75 99.06 0)
 			(effects
 				(font
@@ -2011,7 +2041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HiroFootprints:Mesa 588536"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -2161,7 +2191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HiroFootprints:MB Inductor"
 			(at 163.83 121.92 0)
 			(effects
 				(font
@@ -2238,7 +2268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HiroFootprints:MB Inductor"
 			(at 130.81 121.92 0)
 			(effects
 				(font
@@ -2392,7 +2422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HiroFootprints:Mesa 588536"
 			(at 93.98 99.06 0)
 			(effects
 				(font
@@ -2473,7 +2503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HiroFootprints:Mesa 588536"
 			(at 109.22 99.06 0)
 			(effects
 				(font
@@ -2847,7 +2877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HiroFootprints:MB Inductor"
 			(at 147.32 121.92 0)
 			(effects
 				(font
@@ -3058,7 +3088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HiroFootprints:Mesa 588536"
 			(at 125.73 99.06 0)
 			(effects
 				(font
