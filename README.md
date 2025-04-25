@@ -20,6 +20,7 @@ An important note, this project is for educational purposes and personal use onl
   **PROJECTS WERE CREATED IN KICAD 9.0**
 
   - [Graphic EQ](/Graphic%20EQ): Contains KICAD Projects with Schematics, PCB Designs, and Gerber Files for 5-Band EQ Driver and Slider Boards.
+  - [Images](/Images): Contains Images for Various README's.
   - [Power Amp](/Power%20Amp): Contains KICAD Projects with Schematics, PCB Designs, and Gerber Files for Power Amp Boards.
   - [Power Supply](/Power%20Supply): Contains KICAD Projects with Schematics, PCB Designs, and Gerber Files for Power Supply Boards.
   - [Preamp](/Preamp): Contains KICAD Projects with Schematics, PCB Designs, and Gerber Files for Preamp Boards.
