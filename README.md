@@ -7,7 +7,7 @@ I was inspired by my love of Metallica and James Hetfield's rhythm playing, as w
 
 These amplifiers can be considered legendary and are the subject of many discussions on what makes them so special and highly sought after.
 Although a legitimate Mark IIC+ Reissue exists, as do many originals, these amps are often expensive, and vary in their component and feature choices.
-I wouldn't consider this version to be a faithful clone as there is not much accurate, detailed information on these amplifiers, and some of the schematics that are available have been noted to be incorrect. Certain components are also not readily available today, and so some design concessions have to be made.
+I wouldn't consider this version to be a faithful clone as there is not much accurate, detailed information on these amplifiers, and some of the schematics that are available have been noted to be incorrect. Certain components are also not readily available today, and so some design concessions have to be made. Modifications due to limited design information, component availability, limited budget, and design complexity were made. However, the core DNA and design choices of the original were followed as closely as possible.
 By having a more accessible, afforable, and reasonably accurate version, hopefully I can help contribute to others' tone chasing journeys, or help demystify (in some capacity) what makes these amps so special.
 
 I currently do not own any Mesa Boogie amplifiers to base these designs off of. Instead, I have researched this amp in depth, scouring the internet for schematics, gut shots, and getting advice from others who have successfully built their own clones or similar amplifiers. 
