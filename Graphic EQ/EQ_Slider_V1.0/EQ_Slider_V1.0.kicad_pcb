@@ -5299,6 +5299,71 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "80Hz"
+		(at 187.68 127.26 0)
+		(layer "B.SilkS")
+		(uuid "19e2f000-8f02-4ad9-98b2-0f1f6fdb386c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "2200Hz"
+		(at 141.73 127.26 0)
+		(layer "B.SilkS")
+		(uuid "66e2baf7-1a0f-493b-970b-75efaba05bb5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "240Hz"
+		(at 172.93 127.26 0)
+		(layer "B.SilkS")
+		(uuid "7956445c-5255-42a9-96b8-1ec942f9729f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "6600Hz"
+		(at 126.81 127.26 0)
+		(layer "B.SilkS")
+		(uuid "8847e7a0-ccec-450c-8535-76d833fdc35f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "750Hz"
+		(at 157.44 127.26 0)
+		(layer "B.SilkS")
+		(uuid "a140ca0b-1819-4e47-b696-53627a406653")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 162.4475 70.81)
 		(end 177.5775 70.81)

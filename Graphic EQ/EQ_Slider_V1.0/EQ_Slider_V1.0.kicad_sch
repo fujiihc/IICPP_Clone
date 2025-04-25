@@ -734,6 +734,46 @@
 		)
 		(uuid "120f6a3b-585f-4277-b3cd-970addb97391")
 	)
+	(text "750Hz"
+		(exclude_from_sim no)
+		(at 131.318 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26f80bf7-3a52-4a9e-972e-a745eba64965")
+	)
+	(text "80Hz"
+		(exclude_from_sim no)
+		(at 100.33 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58dc2138-5b83-40ab-b8fe-fa4ec4edc15f")
+	)
+	(text "240Hz"
+		(exclude_from_sim no)
+		(at 115.062 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6129ffa0-c5ca-40ac-ac15-c1439884ab3b")
+	)
+	(text "6600Hz"
+		(exclude_from_sim no)
+		(at 164.338 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8744d7bc-0266-4abe-ad7a-eb93db7de00b")
+	)
 	(text "C4: T356 Used\nT110, and Film Caps\nAvailable As Well"
 		(exclude_from_sim no)
 		(at 150.876 150.114 0)
@@ -743,6 +783,16 @@
 			)
 		)
 		(uuid "a1681369-a38e-4bd1-b656-0103240a10ee")
+	)
+	(text "2200Hz"
+		(exclude_from_sim no)
+		(at 148.082 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cea0495b-c1bb-4fd4-9504-2e6957430a92")
 	)
 	(text "C1, C2, C3: T322 Used"
 		(exclude_from_sim no)
