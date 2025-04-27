@@ -26,6 +26,9 @@ An important note, this project is for educational purposes and personal use onl
   - [Preamp](/Preamp): Contains KICAD Projects with Schematics, PCB Designs, and Gerber Files for Preamp Boards.
 
 ## Organizational/Research Spreadsheet
+Contains Research Links, Bill of Materials, Instructions, Personal Findings, Notes, etc.
+
+[Link to Google Sheet](https://docs.google.com/spreadsheets/d/1ZE0vuGfygjLFiTaHai0WybOM6v7LY0qXNIPXHzz1JHo/edit?usp=sharing)
 
 ## Google Drive
 
