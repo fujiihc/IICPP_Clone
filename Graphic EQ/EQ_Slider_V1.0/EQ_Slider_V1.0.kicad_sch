@@ -826,7 +826,7 @@
 		)
 		(uuid "61df8ba2-2fff-41b5-ac59-c02bab32f48d")
 	)
-	(text_box "TO DO\n----------------------------------------\nMake note of what is on board and what is not...\n\nFind boost and cut filter points\n\n\nDONE\n----------------------------------------\n"
+	(text_box "TO DO\n----------------------------------------\n\n\nDONE\n----------------------------------------\n"
 		(exclude_from_sim no)
 		(at 187.96 73.66 0)
 		(size 64.77 35.56)

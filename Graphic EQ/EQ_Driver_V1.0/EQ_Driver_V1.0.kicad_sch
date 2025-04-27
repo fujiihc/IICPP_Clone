@@ -1101,10 +1101,10 @@
 		)
 		(uuid "68903dc5-b7d7-4546-bc8d-d526f5a7ce75")
 	)
-	(text_box "TO DO\n----------------------------------------\nLook for transistor replacements\n\nGROUND PLANE?\n\n\nDONE\n----------------------------------------\nCREATE CUSTOM FOOTPRINTS FOR ORANGE DROP?\nFIND A WAY TO MAKE ROOM FOR SHORT AND LONG CAPS\n10uf and 220uF"
+	(text_box "TO DO\n----------------------------------------\n\nDONE\n----------------------------------------\n"
 		(exclude_from_sim no)
 		(at 187.96 88.9 0)
-		(size 64.77 26.67)
+		(size 64.77 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

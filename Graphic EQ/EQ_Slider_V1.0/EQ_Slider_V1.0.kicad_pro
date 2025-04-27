@@ -499,7 +499,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Gerbers/EQ_Slider_V1.0_Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
