@@ -50,6 +50,4 @@ The following people have been invaluable in the progress of this project, both 
   - Create Modified C++ Compatible Preamp Board Without Reverb
   - Create Power Supply Board
   - Create Power Amp Board
-
-  - Create Public Organizational Spreadsheet with Personal Findings, Resources, Research, and BOM.
   - Create Public Google Drive with Helpful Files (Pictures, Schematics, Datasheets, Manuals, Etc).
