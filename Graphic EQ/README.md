@@ -2,7 +2,12 @@
 
 ## Overview
 The 5-Band Graphic Equalizer for the IICPP consists of two parts, the EQ Driver and the EQ Slider Board. 
+
 In conjunction, they can boost or cut frequencies at 80Hz, 240Hz, 750Hz, 2200Hz and 6600Hz.
+
+The GEQ can be engaged in EQ Out, EQ In, and EQ Auto Modes, and can be footswitched.
+
+EQ Out has the GEQ Off, EQ In has the GEQ In for Lead and Clean Modes, and EQ Auto engages the EQ when Lead is engaged.
 
 ## Status
   - Schematics, PCB Designs, and Gerbers for V1.0 of both the Driver and Slider Boards are complete.
