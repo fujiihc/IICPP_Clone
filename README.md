@@ -30,7 +30,8 @@ Contains Research Links, Bill of Materials, Instructions, Personal Findings, Not
  - [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1ZE0vuGfygjLFiTaHai0WybOM6v7LY0qXNIPXHzz1JHo/edit?usp=sharing)
 
 ## Google Drive
-
+Contains Pictures, Schematics, Datasheets, Manuals, Etc. Just useful information I found along the way.
+ - [Link to Google Drive](https://drive.google.com/drive/folders/1geqLoLI9ncoWVvD1H8Yl4hjtfwfBTIB6?usp=drive_link)
 ## Thank You's
 The following people have been invaluable in the progress of this project, both directly and indirectly. Whether they posted schematics that they traced, or in-depth gut shots or photos of their own builds, or even answered my questions when I ran into roadblocks, I would like to thank them. I wouldn't have made this much progress without them:
 
