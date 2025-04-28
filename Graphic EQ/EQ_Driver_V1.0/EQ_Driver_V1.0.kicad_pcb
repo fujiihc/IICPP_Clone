@@ -5184,10 +5184,9 @@
 			)
 		)
 		(property "Value" "EQ Output"
-			(at 0 1 0)
+			(at -0.0322 3.1454 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "2f0aa7ee-44c7-4eb7-b855-03036b13c1c2")
 			(effects
 				(font
