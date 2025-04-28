@@ -189,7 +189,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4a88b4d0-9d6f-4c5d-85a3-71ca1a36ac7d")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -503,7 +503,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4446f920-6a04-4373-b9ef-32736627f786")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -638,7 +638,7 @@
 		(property ki_fp_filters "TO?92*")
 		(path "/9732c2ed-0cca-4bf5-96c0-652437f2135a")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.74 1.85)
@@ -991,7 +991,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/276f8966-3837-4839-b573-b64dc493e060")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.18 -3.5)
@@ -1427,7 +1427,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/f5e084e4-be24-483d-8606-c0bf33c4aca1")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.38 3.37)
@@ -1850,7 +1850,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b9657422-7979-46ed-8793-7f2c3eb37ed5")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.44 0)
@@ -2086,7 +2086,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/65ee0a99-9198-4bc5-8c1a-80703822d394")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 10.62 -1.87)
@@ -2428,7 +2428,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/a8ebaf22-9d00-46a8-b48c-fc85a0201de9")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -2660,7 +2660,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/20719983-b012-447b-a214-7af34cc0d418")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.44 0)
@@ -2826,6 +2826,141 @@
 			)
 		)
 	)
+	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
+		(layer "F.Cu")
+		(uuid "5fde16c0-0d68-41d7-8191-4f66e1d9c531")
+		(at 131.21 75.86)
+		(property "Reference" "TP7"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "00f7818b-208d-4315-9b7b-6a19ef3b6084")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Shield"
+			(at 0.07 2.79 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "04cb139f-26ef-4202-91ee-a29d0bf6f656")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "372e18e8-0758-4318-ac46-836da3a76c54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b35f61d7-e2fb-4a80-9515-b78f6e7611e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/6e52231a-8fd4-4be9-a787-d1e4636bf828")
+		(sheetname "/")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 1.8 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "75411117-aee2-469c-996a-d4cc3659f417")
+		)
+		(fp_line
+			(start -1.9 -0.3)
+			(end -1.9 0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6129043-f251-40cb-a585-78936bdb2a73")
+		)
+		(fp_line
+			(start -1.9 0.3)
+			(end 1.9 0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "900e5336-306a-4d63-9682-ef6fa1a7495f")
+		)
+		(fp_line
+			(start 1.9 -0.3)
+			(end -1.9 -0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "efd26a81-ec7f-4781-9a4f-c3fbe6b9f239")
+		)
+		(fp_line
+			(start 1.9 0.3)
+			(end 1.9 -0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "724bc81a-1a02-4be8-a5bf-ea1b5fd816d4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.5 3.5 0)
+			(layer "F.Fab")
+			(uuid "0db0328a-3083-4021-a9c8-1fa8fa9ee921")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.4 3.4)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "6acb822d-a398-4f4c-b70f-0ec87d16e7e2")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6c3e327a-0f73-43b2-9328-f1420921514f")
@@ -2883,7 +3018,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5719321a-2c90-4c4c-9c1e-adcfb88d7b42")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 13.8 0)
@@ -3106,7 +3241,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9413566d-4102-4bf7-b758-5a6f45f2df69")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.69 -1.92)
@@ -3329,7 +3464,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e468b40e-0fb7-437c-bf58-1e467337ffe9")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.69 -1.92)
@@ -3565,7 +3700,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3d4224af-f97d-45f9-9d37-ae454fb9cfa5")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -2.8 -6.1)
@@ -3681,7 +3816,7 @@
 		(property ki_fp_filters "TO?92*")
 		(path "/3a1aaf25-437d-4478-8645-ddbaffe9dcca")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.74 1.85)
@@ -3923,7 +4058,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0ee75317-1ad8-49ad-807c-f00a9b15c4a3")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.69 -1.92)
@@ -4147,7 +4282,7 @@
 		(property ki_fp_filters "TO?92*")
 		(path "/a4a96f41-acd6-4a4b-9892-14e34d057323")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.74 1.85)
@@ -4487,7 +4622,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/52d25e3f-c02c-431d-8c6f-3b98e818a3c0")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.69 -1.92)
@@ -4711,7 +4846,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/696bd197-4008-4a1d-9f78-865d5a128e78")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -4846,7 +4981,7 @@
 		(property ki_fp_filters "TO?92*")
 		(path "/32863da1-76b6-4f5a-81fe-07fe5d6b568f")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.74 1.85)
@@ -5090,7 +5225,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f665cfa0-5b15-486f-9d93-3ab75ab3e11d")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -5237,7 +5372,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/d6047796-769e-4d43-acb4-883d7b01d0d1")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.38 5.12)
@@ -5660,7 +5795,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5aeabbca-f9bc-49c0-b7e4-4da0460c0645")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 13.8 0)
@@ -5896,7 +6031,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6d76ac1c-c17c-49d1-9354-285f259eaf5e")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 13.8 0)
@@ -6132,7 +6267,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/bb45cbeb-5a44-4fc4-a4cf-ad12758eb117")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.38 5.12)
@@ -6555,7 +6690,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/81f0e947-64ed-48b6-be1a-3cf98cbf4189")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.69 -1.92)
@@ -6957,7 +7092,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2ce28591-6f17-4471-808d-40573ba1b93c")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.69 -1.92)
@@ -7193,7 +7328,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c7cbcf4f-85d3-418e-ab5a-f8ba80277d9b")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 10.62 0.925)
@@ -7437,7 +7572,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0f921cdd-b57d-454e-8b53-4bfcfcf09ea3")
 		(sheetname "/")
-		(sheetfile "EQ_Driver_Board.kicad_sch")
+		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -7592,6 +7727,14 @@
 		(uuid "ddd6bd35-4350-4cb4-b4f3-d1da16d08902")
 	)
 	(segment
+		(start 131.21 70.44)
+		(end 131.27 70.38)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "000cde07-8e1a-468a-b5a7-cd32c1cc3492")
+	)
+	(segment
 		(start 93.56 79.64)
 		(end 97.58 75.62)
 		(width 1.6)
@@ -7712,6 +7855,14 @@
 		(uuid "82698449-b503-4e29-92f6-717ade9d8906")
 	)
 	(segment
+		(start 131.21 75.86)
+		(end 131.21 70.44)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "85678f9f-9307-4691-a2e5-bf12de0e153d")
+	)
+	(segment
 		(start 97.58 70.38)
 		(end 103.12 70.38)
 		(width 1.6)
@@ -7728,6 +7879,14 @@
 		(uuid "8fc6129f-0523-4d4a-92dc-9e7f7c6a0d7c")
 	)
 	(segment
+		(start 131.27 70.38)
+		(end 151.08 70.38)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "9508d195-c185-4128-a85b-50bff7f9c56d")
+	)
+	(segment
 		(start 126.31 70.44)
 		(end 126.37 70.38)
 		(width 1.6)
@@ -7737,7 +7896,7 @@
 	)
 	(segment
 		(start 126.37 70.38)
-		(end 151.08 70.38)
+		(end 131.27 70.38)
 		(width 1.6)
 		(layer "F.Cu")
 		(net 2)

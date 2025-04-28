@@ -1224,6 +1224,12 @@
 		(uuid "a67f7d92-2147-4def-8860-31b70a085974")
 	)
 	(junction
+		(at 135.89 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af8a898c-6135-4f21-ae5a-0967dd9587ee")
+	)
+	(junction
 		(at 73.66 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1707,6 +1713,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 104.14) (xy 158.75 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96184a1-c031-4afa-96e2-6e756f22e8a3")
+	)
+	(wire
+		(pts
 			(xy 170.18 104.14) (xy 170.18 100.33)
 		)
 		(stroke
@@ -1917,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 104.14) (xy 158.75 104.14)
+			(xy 130.81 104.14) (xy 135.89 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3118,6 +3134,73 @@
 			(project "EQ_Driver_Board"
 				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e52231a-8fd4-4be9-a787-d1e4636bf828")
+		(property "Reference" "TP7"
+			(at 138.43 106.1719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Shield"
+			(at 138.43 108.7119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06e555b4-14b6-4d3d-bdee-11a0a6e5a8c9")
+		)
+		(instances
+			(project "EQ_Driver_V1.0"
+				(path "/8b3e6737-4f8d-464d-ab54-70eaaf54bfcf"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
