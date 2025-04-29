@@ -3079,13 +3079,13 @@
 	(footprint "Capacitor_THT:CP_Axial_L55.0mm_D26.0mm_P60.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6b2447f1-30cc-4ef0-9b6e-1f4098b7706c")
-		(at 90.302 82.7075)
+		(at 90.3 86.6525)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=60mm, , length*diameter=55*26mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 60mm  length 55mm diameter 26mm Electrolytic Capacitor")
 		(property "Reference" "C1"
 			(at 29.81 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "65ef4744-481d-4967-93e9-af323f485be9")
+			(uuid "485c7953-0242-4fb6-b081-6352cb6ca949")
 			(effects
 				(font
 					(size 1 1)
@@ -3096,7 +3096,7 @@
 		(property "Value" "220uF 300V"
 			(at 30 0 0)
 			(layer "F.SilkS")
-			(uuid "7260ac3b-fcd9-440b-8706-f83248effaf1")
+			(uuid "f5b06503-1366-4140-a475-bdb8c14e4d5e")
 			(effects
 				(font
 					(size 1 1)
@@ -3109,7 +3109,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3afae9e-0d56-4b2b-8adf-0db2ddc726f5")
+			(uuid "92c71014-8337-4033-9aaf-660eda112989")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,7 +3122,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cde07c45-db2f-48cc-8d4e-f97760d724c3")
+			(uuid "1e9eaaaf-6552-4355-88c4-c6d02ff2370b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3343,7 @@
 		(property "Reference" "R1"
 			(at 8.22 0.11 0)
 			(layer "F.SilkS")
-			(uuid "b86ccd17-4f98-4fa0-84b2-2ce634c6edaf")
+			(uuid "876be29a-fd98-498c-a3c0-68d1b7ad0f21")
 			(effects
 				(font
 					(size 1 1)
@@ -3354,7 +3354,7 @@
 		(property "Value" "150K"
 			(at 11.81 0.11 0)
 			(layer "F.SilkS")
-			(uuid "5a7ba558-c97e-4635-bc03-f02fead15cb0")
+			(uuid "587bda52-50ec-448e-b689-90ff8f145640")
 			(effects
 				(font
 					(size 1 1)
@@ -3367,7 +3367,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fc7ac00-4aa9-434e-b791-3c9c07483da6")
+			(uuid "3a414f6e-9bb9-41ce-a00d-55f351b56338")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3380,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2f835b9-7fd4-4cc7-a108-6c39e6b9243f")
+			(uuid "d10f8678-bb0a-4cdf-b10b-d2d01ab55229")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +7049,7 @@
 		(property "Reference" "C3"
 			(at 30.15 1.96 0)
 			(layer "F.SilkS")
-			(uuid "d9158a83-fbf6-465f-8ba5-1274ee31dc00")
+			(uuid "9439f51d-0b0a-486f-af9d-d4c7e2d6255b")
 			(effects
 				(font
 					(size 1 1)
@@ -7060,7 +7060,7 @@
 		(property "Value" "220uF 300V"
 			(at 30 0 0)
 			(layer "F.SilkS")
-			(uuid "036f0d20-972f-4cb1-a293-5b42d787dcbb")
+			(uuid "803afd5c-cd04-4cf9-9aee-e423e4124830")
 			(effects
 				(font
 					(size 1 1)
@@ -7073,7 +7073,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "728f9c68-bd76-42db-acb2-63f470f51e33")
+			(uuid "aac70c3d-64b0-4d39-8a62-0973fd7d2cfb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +7086,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e3d4054-e943-4d6a-8dfe-8633878c9a55")
+			(uuid "3196c9f6-60a0-49c0-9d4c-e4e24e6dcb49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +7834,7 @@
 		(property "Reference" "R2"
 			(at 12.53 0 0)
 			(layer "F.SilkS")
-			(uuid "dc012e80-254e-4610-ab9a-180f2e708281")
+			(uuid "aecabd51-9b62-4327-98f3-8718e48185ec")
 			(effects
 				(font
 					(size 1 1)
@@ -7845,7 +7845,7 @@
 		(property "Value" "150K"
 			(at 8.41 0 0)
 			(layer "F.SilkS")
-			(uuid "fbffa3d1-ef61-4026-8e4b-7dd77d75e1cb")
+			(uuid "0910f819-303a-4a49-a9f8-a5e65d5486a9")
 			(effects
 				(font
 					(size 1 1)
@@ -7858,7 +7858,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e967d55-cf9f-484c-9b71-c2bcc7ee27a4")
+			(uuid "6f1d6cfa-74d4-41b0-8403-4dd46ba0619f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +7871,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3f7ea49-7f97-4209-992f-a40ef1610c84")
+			(uuid "bf9e5a24-5965-4e6a-8c56-428fa8f24287")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,13 +8858,13 @@
 	(footprint "Capacitor_THT:CP_Axial_L55.0mm_D26.0mm_P60.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "517f7113-52e9-480d-8f2a-3956e980b5a3")
-		(at 90.3 86.6525)
+		(at 90.302 82.7075)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=60mm, , length*diameter=55*26mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 60mm  length 55mm diameter 26mm Electrolytic Capacitor")
 		(property "Reference" "C2"
 			(at 30 0 180)
 			(layer "B.SilkS")
-			(uuid "99850309-540a-4dca-b848-6bee1d83ade2")
+			(uuid "2989c58c-c670-4c3d-bb44-93201860c7e0")
 			(effects
 				(font
 					(size 1 1)
@@ -8874,9 +8874,9 @@
 			)
 		)
 		(property "Value" "220uF 300V"
-			(at 30.43 -2.4 180)
+			(at 30.348 1.7475 180)
 			(layer "B.SilkS")
-			(uuid "d403529a-9804-4ada-b914-75db6ac95a3d")
+			(uuid "d1b65b96-f77e-4693-9b0c-6a895f0bb6d4")
 			(effects
 				(font
 					(size 1 1)
@@ -8890,7 +8890,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "16dc3516-5284-4c1c-a911-81d24b06bab9")
+			(uuid "7179acd0-effd-41c8-87b8-d595ae007dc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,7 +8904,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "da34065a-2126-4dda-a3ff-31d49accaa1a")
+			(uuid "e1d4495e-a9c8-4588-9dd1-487738f1f7b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,7 +8992,7 @@
 		(property "Reference" "C4"
 			(at 30 -2.25 180)
 			(layer "B.SilkS")
-			(uuid "d5ce4852-7ad8-4f3a-9548-fa82ed17dbb7")
+			(uuid "0e55ede8-3219-4d29-8e25-a74dce3e1ca6")
 			(effects
 				(font
 					(size 1 1)
@@ -9004,7 +9004,7 @@
 		(property "Value" "220uF 300V"
 			(at 30 0 180)
 			(layer "B.SilkS")
-			(uuid "500fac42-7dad-48aa-a6d6-ae68ae559624")
+			(uuid "d978ca4c-9eca-4a76-89be-537e8b8032f6")
 			(effects
 				(font
 					(size 1 1)
@@ -9018,7 +9018,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b1d00e0f-ceb4-4fd7-961e-1075f43298f3")
+			(uuid "b09ec5e7-a7d2-4fa3-9375-7908aae41fd5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9032,7 +9032,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c6cdc862-8cdc-40a9-9360-5ea0323087d8")
+			(uuid "f1c71ccf-d7e6-42bf-bb8c-e144de1ecaf7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9433,18 +9433,6 @@
 				(size 1 1)
 				(thickness 0.2)
 				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Might not need the reservoir cap labels. just keep a little buffer on the edge, but otherwise, order doesnt matter just polarity"
-		(at 94.2 72.26 0)
-		(layer "Edge.Cuts")
-		(uuid "7fb5afa3-69ad-4805-99b0-dc9f58730f7c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
