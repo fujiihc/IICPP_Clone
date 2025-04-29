@@ -1316,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 152.4) (xy 99.06 152.4)
+			(xy 90.17 152.4) (xy 92.71 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 152.4) (xy 106.68 152.4)
+			(xy 102.87 152.4) (xy 100.33 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1826,7 +1826,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 152.4) (xy 123.19 152.4)
+			(xy 110.49 152.4) (xy 123.19 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2618,7 +2618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L38.0mm_D21.0mm_P44.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L42.0mm_D26.0mm_P45.00mm_Horizontal"
 			(at 159.7152 90.17 0)
 			(effects
 				(font
@@ -2688,7 +2688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D18.0mm_P35.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L55.0mm_D26.0mm_P60.00mm_Horizontal"
 			(at 102.5652 106.68 0)
 			(effects
 				(font
@@ -2956,7 +2956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D18.0mm_P35.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L55.0mm_D26.0mm_P60.00mm_Horizontal"
 			(at 102.5652 90.17 0)
 			(effects
 				(font
@@ -3293,7 +3293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L38.0mm_D21.0mm_P44.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L42.0mm_D26.0mm_P45.00mm_Horizontal"
 			(at 195.2752 90.17 0)
 			(effects
 				(font
@@ -3337,7 +3337,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4006")
-		(at 102.87 152.4 0)
+		(at 96.52 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3345,7 +3345,7 @@
 		(dnp no)
 		(uuid "7e6ecf75-9af3-4b07-8be4-dd6bedc9f1d2")
 		(property "Reference" "D5"
-			(at 102.87 146.05 0)
+			(at 96.52 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3353,7 @@
 			)
 		)
 		(property "Value" "1N4006"
-			(at 102.87 148.59 0)
+			(at 96.52 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3361,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 102.87 156.845 0)
+			(at 96.52 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3370,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 102.87 152.4 0)
+			(at 96.52 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3379,7 @@
 			)
 		)
 		(property "Description" "800V 1A General Purpose Rectifier Diode, DO-41"
-			(at 102.87 152.4 0)
+			(at 96.52 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3388,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 102.87 152.4 0)
+			(at 96.52 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3397,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 102.87 152.4 0)
+			(at 96.52 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +3583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L38.0mm_D21.0mm_P44.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L42.0mm_D26.0mm_P45.00mm_Horizontal"
 			(at 177.4952 90.17 0)
 			(effects
 				(font
@@ -4806,7 +4806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D18.0mm_P35.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L55.0mm_D26.0mm_P60.00mm_Horizontal"
 			(at 122.8852 90.17 0)
 			(effects
 				(font
@@ -4876,7 +4876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D18.0mm_P35.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L55.0mm_D26.0mm_P60.00mm_Horizontal"
 			(at 122.8852 106.68 0)
 			(effects
 				(font
@@ -4920,7 +4920,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 113.03 152.4 90)
+		(at 106.68 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4929,7 +4929,7 @@
 		(fields_autoplaced yes)
 		(uuid "f21d07cf-e9df-43d9-8026-3dc2094dcbce")
 		(property "Reference" "R5"
-			(at 113.03 146.05 90)
+			(at 106.68 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +4937,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 113.03 148.59 90)
+			(at 106.68 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4945,7 +4945,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 113.03 154.178 90)
+			(at 106.68 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,7 +4954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 152.4 0)
+			(at 106.68 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +4963,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 113.03 152.4 0)
+			(at 106.68 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
