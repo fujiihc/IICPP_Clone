@@ -3,7 +3,7 @@
 ## Overview
 The Power Supply for the IICPP contains the Main HT/B+ Taps as well as the Bias and Graphic EQ Power Supplies.
 
-The board supports x2 and x4 300V 220uF Reservoir Caps, as the number differs between the 60W, 100W, and Simul-Class versions.
+The board supports x2 (for 60W) and x4 (for 100W and Simul-Class) 300V 220uF Reservoir Caps.
 
 ## Status
   - Schematic, PCB Design, and Gerber for V1.0 of the Power Supply Board are Complete.
