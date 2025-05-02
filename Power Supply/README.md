@@ -13,11 +13,11 @@ The board supports x2 and x4 300V 220uF Reservoir Caps, as the number differs be
   - [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1ZE0vuGfygjLFiTaHai0WybOM6v7LY0qXNIPXHzz1JHo/edit?gid=810989497#gid=810989497)
 
 ## Notes
-  - Bias Supply for V1.0 is traced from an Original IIB underside PCB. There are variations on the Bias Supply in the [Experiments](../Experiments) Folder.
-  - More research will be done on the II, IIA, IIB, IIC+, etc Bias Supplies to find a general consensus.
+  - Bias Supply for SLOCLONE/DANO, Mesa Boogie, and JRB32 Schematics are incorrect. The correct Bias Supply Schematic is used in this V1.0, which was traced from original IIB and IIC+ Power Supply Boards.
+  - Bias Supply Validated [Here](https://boogieforum.com/threads/iic-tune-up-and-restoration-updated.68183/)
+  - Correct and Incorrect Bias Supply Versions can be found in [Experiments](../Experiments)
     
 ## To-Do/Future Plans
-  - Validate Bias Supply
   - Add/Remove Taps based on Power Transformer. Currently looking at Hammond 291ZZ.
 
 ## Images
