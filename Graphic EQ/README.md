@@ -30,5 +30,5 @@ EQ Out has the GEQ Off, EQ In has the GEQ In for Lead and Clean Modes, and EQ Au
 Slider V1.0:
 ![SliderV1.0](../Images/SliderV1.0.png)
 
-Driver V1.0
+Driver V1.0:
 ![DriverV1.0](../Images/DriverV1.0.png)
