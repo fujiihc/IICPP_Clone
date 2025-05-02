@@ -18,7 +18,7 @@ An important note, this project is for educational purposes and personal use onl
 
 ## Table of Contents 
   **PROJECTS WERE CREATED IN KICAD 9.0**
-
+  - [Experiments](/Experiments): Contains Experimental Layouts and Ideas That Haven't Been Confirmed/Finalized.
   - [Graphic EQ](/Graphic%20EQ): Contains KICAD Projects with Schematics, PCB Designs, and Gerber Files for 5-Band EQ Driver and Slider Boards.
   - [Images](/Images): Contains Images for Various README's.
   - [Power Amp](/Power%20Amp): Contains KICAD Projects with Schematics, PCB Designs, and Gerber Files for Power Amp Boards.
@@ -32,6 +32,7 @@ Contains Research Links, Bill of Materials, Instructions, Personal Findings, Not
 ## Google Drive
 Contains Pictures, Schematics, Datasheets, Manuals, Etc. Just useful information I found along the way.
  - [Link to Google Drive](https://drive.google.com/drive/folders/1geqLoLI9ncoWVvD1H8Yl4hjtfwfBTIB6?usp=drive_link)
+
 ## Thank You's
 The following people have been invaluable in the progress of this project, both directly and indirectly. Whether they posted schematics that they traced, or in-depth gut shots or photos of their own builds, or even answered my questions when I ran into roadblocks, I would like to thank them. I wouldn't have made this much progress without them:
 
@@ -49,6 +50,5 @@ The following people have been invaluable in the progress of this project, both 
 
   - Create Modified C++ Compatible Preamp Board With Reverb
   - Create Modified C++ Compatible Preamp Board Without Reverb
-  - Create Power Supply Board
   - Create Power Amp Board
   - Create Public Google Drive with Helpful Files (Pictures, Schematics, Datasheets, Manuals, Etc).
