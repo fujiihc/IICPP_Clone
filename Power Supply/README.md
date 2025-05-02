@@ -14,8 +14,7 @@ The board supports x2 (for 60W) and x4 (for 100W and Simul-Class) 300V 220uF Res
 
 ## Notes
   - Bias Supply for SLOCLONE/DANO, Mesa Boogie, and JRB32 Schematics are incorrect. The correct Bias Supply Schematic is used in this V1.0, which was traced from original IIB and IIC+ Power Supply Boards.
-  - Bias Supply Validated [Here](https://boogieforum.com/threads/iic-tune-up-and-restoration-updated.68183/)
-  - Correct and Incorrect Bias Supply Versions can be found in [Experiments](../Experiments)
+  - Validated/Correct and Incorrect Bias Supply Versions and Validation Sources can be found in [Experiments](../Experiments)
     
 ## To-Do/Future Plans
   - Add/Remove Taps based on Power Transformer. Currently looking at Hammond 291ZZ.
