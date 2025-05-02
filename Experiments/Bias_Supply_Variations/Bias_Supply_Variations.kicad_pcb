@@ -16707,6 +16707,26 @@
 			(type solid)
 		)
 	)
+	(gr_text_box "CORRECT VERSION"
+		(start 82.725 73.4)
+		(end 112.125 78.475)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.SilkS")
+		(uuid "62e3def1-8969-4b2b-89c2-645ef4e8dfb7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+	)
 	(gr_text_box "Mesa Boogie"
 		(start 42.4 87.025)
 		(end 71.4 91.325)
@@ -16747,9 +16767,9 @@
 			(type solid)
 		)
 	)
-	(gr_text_box "JAY OMEGA 1 / IIB"
+	(gr_text_box "JAY OMEGA 1 / IIB / VERIFIED IIC+"
 		(start 45.05 33.625)
-		(end 74.05 37.925)
+		(end 77.95 41.325)
 		(margins 1.0025 1.0025 1.0025 1.0025)
 		(layer "F.SilkS")
 		(uuid "c350d7f7-ed5a-4262-a757-08e9b02a4cb1")
