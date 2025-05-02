@@ -13,7 +13,7 @@ The board supports x2 and x4 300V 220uF Reservoir Caps, as the number differs be
   - [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1ZE0vuGfygjLFiTaHai0WybOM6v7LY0qXNIPXHzz1JHo/edit?gid=810989497#gid=810989497)
 
 ## Notes
-  - Bias Supply for V1.0 is traced from an Original IIB underside PCB. There are variations on the Bias Supply in the [Experiments](./Experiments) Folder.
+  - Bias Supply for V1.0 is traced from an Original IIB underside PCB. There are variations on the Bias Supply in the [Experiments](../Experiments) Folder.
   - More research will be done on the II, IIA, IIB, IIC+, etc Bias Supplies to find a general consensus.
     
 ## To-Do/Future Plans
