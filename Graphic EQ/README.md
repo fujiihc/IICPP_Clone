@@ -10,8 +10,8 @@ The GEQ can be engaged in EQ Out, EQ In, and EQ Auto Modes, and can be footswitc
 EQ Out has the GEQ Off, EQ In has the GEQ In for Lead and Clean Modes, and EQ Auto engages the EQ when Lead is engaged.
 
 ## Status
-  - Schematics, PCB Designs, and Gerbers for V1.0 of both the Driver and Slider Boards are complete.
-  - Gerbers generated for JLCPCB manufacturing.
+  - Schematics, PCB Designs, and Gerbers for V1.0 of both the Driver and Slider Boards are Complete.
+  - Gerbers generated for JLCPCB Manufacturing.
 
 ## Bill Of Materials
   - [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1ZE0vuGfygjLFiTaHai0WybOM6v7LY0qXNIPXHzz1JHo/edit?gid=0#gid=0)
