@@ -103,7 +103,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -134,7 +133,7 @@
 	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
 		(layer "F.Cu")
 		(uuid "0a76a937-6ae6-4d5c-b22c-f107af673883")
-		(at 83.43 100.12)
+		(at 83.43 98)
 		(property "Reference" "TP5"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -2373,7 +2372,7 @@
 	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
 		(layer "F.Cu")
 		(uuid "47caa022-117b-4198-a832-8aeec2bd4118")
-		(at 83.43 88.51)
+		(at 83.43 90)
 		(property "Reference" "TP6"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -7814,14 +7813,6 @@
 		(uuid "466c5f81-8690-4a5d-9ebf-f813e8cc0c9a")
 	)
 	(segment
-		(start 83.43 88.51)
-		(end 83.43 76.94)
-		(width 1.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "46e2690b-5ac6-4d97-b975-f7253fc071e8")
-	)
-	(segment
 		(start 185.2 74.23)
 		(end 185.2 82.29)
 		(width 1.6)
@@ -7980,6 +7971,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "c11c7210-a7f5-4c1a-a160-9b2735e06a05")
+	)
+	(segment
+		(start 83.43 76.94)
+		(end 83.43 90)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "c925b820-7ce4-46f5-bd48-00e8298eb18b")
 	)
 	(segment
 		(start 151.09 76.36)
@@ -8519,19 +8518,19 @@
 	)
 	(segment
 		(start 83.43 111.07)
+		(end 83.43 98)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "39e58a5b-6286-47b8-b016-5de05d35792d")
+	)
+	(segment
+		(start 83.43 111.07)
 		(end 89.95 117.59)
 		(width 1.6)
 		(layer "F.Cu")
 		(net 10)
 		(uuid "57f354ba-8f3b-41f1-b761-bb2de71ad9ac")
-	)
-	(segment
-		(start 83.43 100.12)
-		(end 83.43 111.07)
-		(width 1.6)
-		(layer "F.Cu")
-		(net 10)
-		(uuid "68e5ab24-e181-4167-87b6-4dd65bf081f4")
 	)
 	(segment
 		(start 89.95 117.59)

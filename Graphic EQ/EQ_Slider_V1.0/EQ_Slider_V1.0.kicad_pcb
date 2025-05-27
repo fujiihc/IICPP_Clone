@@ -103,7 +103,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -1874,7 +1873,7 @@
 	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
 		(layer "F.Cu")
 		(uuid "43bf1c97-1e93-454a-9cdc-7082c5be387b")
-		(at 195.8 88.23)
+		(at 195.8 85)
 		(property "Reference" "TP1"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -1889,7 +1888,7 @@
 			)
 		)
 		(property "Value" "Cut (L)"
-			(at 0 -2.855875 0)
+			(at 0 3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "716ffb6c-885b-415c-8f45-3feea7dc296f")
@@ -5677,14 +5676,6 @@
 		(uuid "574f26ec-cb92-4f04-9761-5301f159d332")
 	)
 	(segment
-		(start 195.8 88.23)
-		(end 195.8 122.39)
-		(width 1.6)
-		(layer "F.Cu")
-		(net 15)
-		(uuid "84160e5b-cc50-4401-9259-90c12b3750ce")
-	)
-	(segment
 		(start 142.02 124.77)
 		(end 144 126.75)
 		(width 1.6)
@@ -5763,6 +5754,14 @@
 		(layer "F.Cu")
 		(net 15)
 		(uuid "f44c3360-a7b3-4e29-b064-efa8d6726471")
+	)
+	(segment
+		(start 195.8 122.39)
+		(end 195.8 85)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "f8c66db1-7b03-4ea3-94be-8fad1a5cf940")
 	)
 	(segment
 		(start 159.5 126.75)
