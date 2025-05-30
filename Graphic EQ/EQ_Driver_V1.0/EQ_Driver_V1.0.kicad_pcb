@@ -130,12 +130,12 @@
 	(net 11 "Net-(Q1-E)")
 	(net 12 "Net-(Q2-B)")
 	(net 13 "Net-(Q2-E)")
-	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
+	(footprint "HiroFootprints:WirePad"
 		(layer "F.Cu")
 		(uuid "0a76a937-6ae6-4d5c-b22c-f107af673883")
 		(at 83.43 98)
 		(property "Reference" "TP5"
-			(at 0 -0.5 0)
+			(at 0 3.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -148,7 +148,7 @@
 			)
 		)
 		(property "Value" "Power"
-			(at 0.12 -2.86 0)
+			(at -0.12 3.71 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d3772c1a-bb78-4711-a8df-cea92d359bf5")
@@ -172,7 +172,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -190,59 +190,9 @@
 		(sheetname "/")
 		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 1.8 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "cb70c298-c05a-42b1-bb2e-7024119de9ef")
-		)
-		(fp_line
-			(start -1.9 -0.3)
-			(end -1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6ba7cb90-a7d0-46e0-8f91-a80af84a3f15")
-		)
-		(fp_line
-			(start -1.9 0.3)
-			(end 1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bc32316c-7bef-4052-8009-fcc558ffa690")
-		)
-		(fp_line
-			(start 1.9 -0.3)
-			(end -1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "897c9707-6a8f-4377-8514-5594c4621ef6")
-		)
-		(fp_line
-			(start 1.9 0.3)
-			(end 1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7e9fd4d9-735e-4b55-a8e2-d9910cc1d0bc")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 3.5 0)
+			(at 0 6.5 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0ae29d58-1798-43d8-963f-8b70333b4b2a")
 			(effects
@@ -252,12 +202,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3.4 3.4)
-			(drill 1.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "1" smd rect
+			(at 0 -0.25)
+			(size 3 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "Net-(C7-Pad2)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -444,16 +392,16 @@
 			)
 		)
 	)
-	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
+	(footprint "HiroFootprints:WirePad"
 		(layer "F.Cu")
 		(uuid "195c9f3b-7b9f-4b86-98c0-7522be2abac1")
-		(at 190.5 117.605)
+		(at 178.53 116.56)
 		(property "Reference" "TP1"
-			(at 0 -0.5 0)
+			(at 0 3.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b7486c3d-2a29-4479-ba83-59bfb1e458ca")
+			(uuid "5b17faf0-c5f8-46c5-83ef-493c96d76a48")
 			(effects
 				(font
 					(size 1 1)
@@ -462,10 +410,10 @@
 			)
 		)
 		(property "Value" "EQ Input"
-			(at -0.05 3.025 0)
+			(at -0.18 3.94 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "74c4e477-62d6-4644-9560-e05946368e8a")
+			(uuid "22b2f162-900c-4b78-8b37-7e8254d93e66")
 			(effects
 				(font
 					(size 1 1)
@@ -478,7 +426,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "daa438e5-9aca-4496-8023-d294262e7054")
+			(uuid "d4d95089-8618-4435-bf56-b760da4b2cbf")
 			(effects
 				(font
 					(size 1 1)
@@ -486,12 +434,12 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "362ad000-17df-43c1-9fc8-e9c1b06f754d")
+			(uuid "140bf477-58ea-45b6-a4c1-f0c09e3db2b5")
 			(effects
 				(font
 					(size 1 1)
@@ -504,59 +452,9 @@
 		(sheetname "/")
 		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 1.8 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "91313473-cbb1-45f8-bd80-1b55a348cfe6")
-		)
-		(fp_line
-			(start -1.9 -0.3)
-			(end -1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "558e0a03-fe6e-40cd-a14e-2beda87fc8c8")
-		)
-		(fp_line
-			(start -1.9 0.3)
-			(end 1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0a89aec2-8982-4b29-9bcc-1d1241e00b19")
-		)
-		(fp_line
-			(start 1.9 -0.3)
-			(end -1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "056fdc4f-883f-4faf-b019-e12c86d41253")
-		)
-		(fp_line
-			(start 1.9 0.3)
-			(end 1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f429a7aa-23b5-4d51-a0e4-0b27e8fce4ae")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 3.5 0)
+			(at 0 6.5 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "3ff4cf97-cff9-44d6-946f-61cf96f004ae")
 			(effects
@@ -566,12 +464,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3.4 3.4)
-			(drill 1.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "1" smd rect
+			(at 0 -0.25)
+			(size 3 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "Net-(C2-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -2369,12 +2265,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
+	(footprint "HiroFootprints:WirePad"
 		(layer "F.Cu")
 		(uuid "47caa022-117b-4198-a832-8aeec2bd4118")
 		(at 83.43 90)
 		(property "Reference" "TP6"
-			(at 0 -0.5 0)
+			(at 0 3.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2387,7 +2283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 0.02 3.02 0)
+			(at -0.05 -4.39 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "74f1e1c2-9b3d-4f26-8b71-7e2ae0ab116a")
@@ -2411,7 +2307,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2429,59 +2325,9 @@
 		(sheetname "/")
 		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 1.8 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "f824b432-939c-4aea-b0cd-4da78ba54c5f")
-		)
-		(fp_line
-			(start -1.9 -0.3)
-			(end -1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "fb9c86d8-64f6-4c2b-9b5e-c2966257ac6d")
-		)
-		(fp_line
-			(start -1.9 0.3)
-			(end 1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cae2a2f3-f4f4-4caa-a821-13f4c2d883e8")
-		)
-		(fp_line
-			(start 1.9 -0.3)
-			(end -1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "07fc7156-7edc-40e1-b6dc-0d41670c3ddf")
-		)
-		(fp_line
-			(start 1.9 0.3)
-			(end 1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "53a68c92-beb6-4bef-9dd0-0ad638b3fcc2")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 3.5 0)
+			(at 0 6.5 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "066a1045-bf6d-4534-8fe9-d809aac7076f")
 			(effects
@@ -2491,12 +2337,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3.4 3.4)
-			(drill 1.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "1" smd rect
+			(at 0 -0.25)
+			(size 3 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "passive")
@@ -2825,12 +2669,12 @@
 			)
 		)
 	)
-	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
+	(footprint "HiroFootprints:WirePad"
 		(layer "F.Cu")
 		(uuid "5fde16c0-0d68-41d7-8191-4f66e1d9c531")
-		(at 138.43 73.75)
+		(at 133.62 75.39)
 		(property "Reference" "TP7"
-			(at 0 -0.5 0)
+			(at 0 3.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2843,7 +2687,7 @@
 			)
 		)
 		(property "Value" "Shield"
-			(at 0.07 2.79 0)
+			(at -0.06 4.1 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "36ea1e18-5709-4f15-8bf1-11d4b9f20507")
@@ -2867,7 +2711,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2885,59 +2729,9 @@
 		(sheetname "/")
 		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 1.8 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "75411117-aee2-469c-996a-d4cc3659f417")
-		)
-		(fp_line
-			(start -1.9 -0.3)
-			(end -1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d6129043-f251-40cb-a585-78936bdb2a73")
-		)
-		(fp_line
-			(start -1.9 0.3)
-			(end 1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "900e5336-306a-4d63-9682-ef6fa1a7495f")
-		)
-		(fp_line
-			(start 1.9 -0.3)
-			(end -1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "efd26a81-ec7f-4781-9a4f-c3fbe6b9f239")
-		)
-		(fp_line
-			(start 1.9 0.3)
-			(end 1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "724bc81a-1a02-4be8-a5bf-ea1b5fd816d4")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 3.5 0)
+			(at 0 6.5 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0db0328a-3083-4021-a9c8-1fa8fa9ee921")
 			(effects
@@ -2947,12 +2741,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3.4 3.4)
-			(drill 1.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "1" smd rect
+			(at 0 -0.25)
+			(size 3 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "passive")
@@ -4787,12 +4579,12 @@
 			)
 		)
 	)
-	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
+	(footprint "HiroFootprints:WirePad"
 		(layer "F.Cu")
 		(uuid "a69d36e4-e42a-4683-989f-01e6dd46f169")
-		(at 152.47 112.58)
+		(at 161.11 105.81)
 		(property "Reference" "TP2"
-			(at 0 -0.5 0)
+			(at 0 3.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -4805,7 +4597,7 @@
 			)
 		)
 		(property "Value" "Cut (L)"
-			(at 0 2.94 0)
+			(at -0.1 4.02 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d7883701-9f17-4823-a98d-96207fffe664")
@@ -4829,7 +4621,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4847,59 +4639,9 @@
 		(sheetname "/")
 		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 1.8 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "8ce8ee31-2ac5-43a1-aa0e-c856ff2af1a4")
-		)
-		(fp_line
-			(start -1.9 -0.3)
-			(end -1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1f07b0a3-d421-4f72-81c7-939713eebcc9")
-		)
-		(fp_line
-			(start -1.9 0.3)
-			(end 1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "caeb5439-98a9-4832-a0b8-d14fa68487c7")
-		)
-		(fp_line
-			(start 1.9 -0.3)
-			(end -1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ec5df848-8c1e-4459-8319-6ba6f8997ca8")
-		)
-		(fp_line
-			(start 1.9 0.3)
-			(end 1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6a6634b1-3fa5-4bf9-9a65-bb52f6b954c0")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 3.5 0)
+			(at 0 6.5 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a78b75f3-b9e4-4306-a5a2-7f2574510555")
 			(effects
@@ -4909,12 +4651,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3.4 3.4)
-			(drill 1.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "1" smd rect
+			(at 0 -0.25)
+			(size 3 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "Net-(Q2-B)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -5165,12 +4905,12 @@
 			)
 		)
 	)
-	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
+	(footprint "HiroFootprints:WirePad"
 		(layer "F.Cu")
 		(uuid "a8a7bade-6d88-4bfc-a894-7f1f793b5230")
 		(at 118.9722 110.5946)
 		(property "Reference" "TP4"
-			(at 0 -0.5 0)
+			(at 0 3.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5183,7 +4923,7 @@
 			)
 		)
 		(property "Value" "EQ Output"
-			(at -0.0322 3.1454 0)
+			(at 0.0278 3.8654 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2f0aa7ee-44c7-4eb7-b855-03036b13c1c2")
@@ -5207,7 +4947,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5225,59 +4965,9 @@
 		(sheetname "/")
 		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 1.8 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "5b36130a-f24d-4585-844d-5bc0fdb1b7d5")
-		)
-		(fp_line
-			(start -1.9 -0.3)
-			(end -1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6e537ec2-f467-41bd-9fc4-2bf51bc724cd")
-		)
-		(fp_line
-			(start -1.9 0.3)
-			(end 1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "488197da-d2a2-4263-ad01-2fdd94db28c6")
-		)
-		(fp_line
-			(start 1.9 -0.3)
-			(end -1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "50470ae1-8a9a-4bb7-aa7e-99e7a5811b36")
-		)
-		(fp_line
-			(start 1.9 0.3)
-			(end 1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c852c818-a5ed-4d80-9d69-e3096f4fc342")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 3.5 0)
+			(at 0 6.5 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "61c2a872-25aa-41a3-a60d-c58152385d9a")
 			(effects
@@ -5287,12 +4977,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3.4 3.4)
-			(drill 1.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "1" smd rect
+			(at 0 -0.25)
+			(size 3 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "Net-(C5-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -7552,16 +7240,16 @@
 			)
 		)
 	)
-	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
+	(footprint "HiroFootprints:WirePad"
 		(layer "F.Cu")
 		(uuid "fd0822c4-dee0-44af-bdfc-ef57f4333631")
-		(at 145.47 112.58)
+		(at 145.85 110.88)
 		(property "Reference" "TP3"
-			(at 0 -0.5 0)
+			(at 0 3.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "20297b31-9a9e-4f8f-8edb-2434f54b9aa9")
+			(uuid "23457e78-396f-4927-a310-980c4431fe97")
 			(effects
 				(font
 					(size 1 1)
@@ -7570,10 +7258,10 @@
 			)
 		)
 		(property "Value" "Boost (R)"
-			(at 0.17 2.93 0)
+			(at 0.19 4.09 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "373f964b-bdd4-4277-9c50-239b2cd1860b")
+			(uuid "272a1ef5-2455-4224-80bc-4bc05675c935")
 			(effects
 				(font
 					(size 1 1)
@@ -7586,7 +7274,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5678e11e-9e69-4c3d-a013-d1786153e527")
+			(uuid "f0dc3cae-f822-49c1-a31c-a40d2631d987")
 			(effects
 				(font
 					(size 1 1)
@@ -7594,12 +7282,12 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac4df3ee-ac69-451a-8203-938b44e8b3b2")
+			(uuid "b5797f6a-1033-4757-b538-1e632f1ac8b0")
 			(effects
 				(font
 					(size 1 1)
@@ -7612,59 +7300,9 @@
 		(sheetname "/")
 		(sheetfile "EQ_Driver_V1.0.kicad_sch")
 		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 1.8 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "2d6ceca2-fcbd-4a99-aadf-2aee3e4cf7b0")
-		)
-		(fp_line
-			(start -1.9 -0.3)
-			(end -1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a52657c8-6ec6-48e0-b1bb-01a66a5cef0c")
-		)
-		(fp_line
-			(start -1.9 0.3)
-			(end 1.9 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1d425213-cd35-43ea-b547-b7126b469627")
-		)
-		(fp_line
-			(start 1.9 -0.3)
-			(end -1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "86be07a3-f929-4d80-9dd4-035c2a776f4b")
-		)
-		(fp_line
-			(start 1.9 0.3)
-			(end 1.9 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e8403f96-5df4-4c6c-9c70-836be92f18ad")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 3.5 0)
+			(at 0 6.5 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e51ac156-e054-4419-8348-58fcdbe1910f")
 			(effects
@@ -7674,12 +7312,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3.4 3.4)
-			(drill 1.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "1" smd rect
+			(at 0 -0.25)
+			(size 3 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "Net-(Q3-B)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -7699,7 +7335,7 @@
 		(uuid "8856cb3b-4ca0-492b-a078-8042acf45af3")
 	)
 	(gr_text "Ver 1.0"
-		(at 177.91 120.26 0)
+		(at 186.44 120.33 0)
 		(layer "F.SilkS")
 		(uuid "4c499f98-42b6-4477-9249-d54e32f57c19")
 		(effects
@@ -7712,7 +7348,7 @@
 		)
 	)
 	(gr_text "HCF\nEQ DRIVER"
-		(at 180.22 117.82 0)
+		(at 188.75 117.89 0)
 		(layer "F.SilkS")
 		(uuid "83076b2b-a3fb-4e1f-89f0-3b360b07e7ff")
 		(effects
@@ -7869,6 +7505,14 @@
 		(uuid "557757f9-66d8-437a-8f8f-baf1082e520b")
 	)
 	(segment
+		(start 133.62 70.44)
+		(end 133.68 70.38)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "5f9f8234-1be5-4de7-b009-b74ac0856428")
+	)
+	(segment
 		(start 138.43 70.39)
 		(end 138.44 70.38)
 		(width 1.6)
@@ -7891,6 +7535,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "77374bf3-68bd-4938-99fd-5b29c24283fb")
+	)
+	(segment
+		(start 133.62 75.14)
+		(end 133.62 70.44)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "7dc505e5-4176-4411-aa42-cd9342f4ccb8")
 	)
 	(segment
 		(start 178.82 70.38)
@@ -7926,11 +7578,19 @@
 	)
 	(segment
 		(start 131.27 70.38)
-		(end 138.44 70.38)
+		(end 133.68 70.38)
 		(width 1.6)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "9508d195-c185-4128-a85b-50bff7f9c56d")
+	)
+	(segment
+		(start 133.68 70.38)
+		(end 138.44 70.38)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "992a8f50-62ce-4d26-b1b7-21cfaf6d5fe4")
 	)
 	(segment
 		(start 126.31 70.44)
@@ -7979,14 +7639,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "aa977eb4-5019-4cea-b753-f0dc789a9081")
-	)
-	(segment
-		(start 138.43 73.75)
-		(end 138.43 70.39)
-		(width 1.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "b8d945de-f6fc-40a0-babe-9201e4b4cc4f")
 	)
 	(segment
 		(start 103.14 70.4)
@@ -8077,36 +7729,36 @@
 		(uuid "ffcd0814-e6ef-4944-af4e-5b784fe10878")
 	)
 	(segment
+		(start 186.4 108.44)
+		(end 185.2 109.64)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "44b9218d-34ab-426f-b6ac-c3b7fc4c8fce")
+	)
+	(segment
+		(start 185.2 97.53)
+		(end 185.2 109.64)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "523ecfca-e797-42df-be40-7e44c99c5a95")
+	)
+	(segment
+		(start 185.2 109.64)
+		(end 178.53 116.31)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "8e2278f4-dc19-4598-b13e-fe672091ab97")
+	)
+	(segment
 		(start 194.17 108.44)
-		(end 190.5 104.77)
+		(end 186.4 108.44)
 		(width 1.6)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "0f8f9389-b04d-4098-850e-c452f94cfff0")
-	)
-	(segment
-		(start 190.5 102.83)
-		(end 185.2 97.53)
-		(width 1.6)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "8014497b-5ae2-4e93-b665-35d5b1750af5")
-	)
-	(segment
-		(start 190.5 104.77)
-		(end 190.5 102.83)
-		(width 1.6)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "eb6ea294-5ab2-4904-bbc3-2598b9823ab9")
-	)
-	(segment
-		(start 190.5 117.605)
-		(end 190.5 104.77)
-		(width 1.6)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "ed12dac3-1175-46b0-ba2b-1db458b4ed8b")
+		(uuid "a0c0e215-51a6-4dda-a3e9-18496508553a")
 	)
 	(segment
 		(start 171.81 86.36)
@@ -8293,14 +7945,6 @@
 		(uuid "e8f960fe-bea0-4812-a373-1e7f1fdad58e")
 	)
 	(segment
-		(start 143.53 110.64)
-		(end 141.67 110.64)
-		(width 1.6)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "0029fd2a-757d-425e-82de-723aae0d4e43")
-	)
-	(segment
 		(start 126.8524 110.6362)
 		(end 131.7762 110.6362)
 		(width 1.6)
@@ -8309,12 +7953,20 @@
 		(uuid "03861647-8ed5-4796-8aec-54468b7949e4")
 	)
 	(segment
-		(start 145.47 112.58)
-		(end 143.53 110.64)
+		(start 145.84 110.64)
+		(end 145.85 110.63)
 		(width 1.6)
 		(layer "F.Cu")
 		(net 7)
-		(uuid "673a3bd3-cf14-4b82-99ce-0bb8c7d995ad")
+		(uuid "3a3875e2-861c-4b1e-9a36-7ba330e4797e")
+	)
+	(segment
+		(start 141.67 110.64)
+		(end 145.84 110.64)
+		(width 1.6)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "5aaa1a1a-96d6-47f8-add7-6649e3c2c26f")
 	)
 	(segment
 		(start 131.78 110.64)
@@ -8341,20 +7993,12 @@
 		(uuid "08a506ff-030f-4172-a8c8-2106b62059c9")
 	)
 	(segment
-		(start 118.9643 110.5867)
-		(end 118.9722 110.5946)
+		(start 118.9643 110.3367)
+		(end 118.9722 110.3446)
 		(width 1.6)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "0a71bc8b-ef1b-4362-bf8d-0d3ee1cbf7e7")
-	)
-	(segment
-		(start 118.9722 110.5946)
-		(end 118.9722 104.5351)
-		(width 1.6)
-		(layer "F.Cu")
-		(net 8)
-		(uuid "32353208-a714-417d-b56e-d7623d7d48d7")
+		(uuid "0a5b8a59-42b4-400f-b1e5-689a430950ed")
 	)
 	(segment
 		(start 126.31 91.1)
@@ -8365,12 +8009,12 @@
 		(uuid "557d33a1-0684-4ffa-b959-c6d67a603e36")
 	)
 	(segment
-		(start 118.9722 104.5351)
-		(end 118.9643 104.5272)
+		(start 118.9643 104.5272)
+		(end 118.9643 110.3367)
 		(width 1.6)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "9a97e7fc-e568-48a1-996f-6ccf50605db2")
+		(uuid "e0db998d-8500-4175-85db-6af8570bac2a")
 	)
 	(segment
 		(start 167.4862 109.7056)
@@ -8573,52 +8217,36 @@
 		(uuid "c7b1b839-ed2b-42f5-90db-24d42d7d7df5")
 	)
 	(segment
-		(start 158.33 103.72)
-		(end 158.33 99.05)
+		(start 158.33 105.55)
+		(end 158.32 105.56)
 		(width 1.6)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "06eb30dd-4ecd-45e8-b365-509122d5f3cf")
-	)
-	(segment
-		(start 156.49 105.56)
-		(end 158.33 103.72)
-		(width 1.6)
-		(layer "F.Cu")
-		(net 12)
-		(uuid "29a1cfbf-aeba-4d0d-9921-090c90cffec0")
-	)
-	(segment
-		(start 152.47 112.58)
-		(end 156.14 112.58)
-		(width 1.6)
-		(layer "F.Cu")
-		(net 12)
-		(uuid "71a65030-7b5d-417d-b83c-c8a50c73c7ea")
+		(uuid "182fea22-31f3-4024-beff-d8173643d2e6")
 	)
 	(segment
 		(start 152.18 105.56)
-		(end 156.49 105.56)
+		(end 158.32 105.56)
 		(width 1.6)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "743414cc-6dda-4444-86a0-6b7fa18a65c4")
+		(uuid "478fcaea-f193-4317-b7d7-f9e1a5f24f9e")
 	)
 	(segment
-		(start 156.14 112.58)
-		(end 158.33 110.39)
+		(start 158.32 105.56)
+		(end 161.11 105.56)
 		(width 1.6)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "87d5b1a5-1b14-4d77-9b16-046e67f4f117")
+		(uuid "5f971cca-cf52-4ea9-9f96-969cbd97436e")
 	)
 	(segment
-		(start 158.33 110.39)
-		(end 158.33 103.72)
+		(start 158.33 99.05)
+		(end 158.33 105.55)
 		(width 1.6)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "e20990db-c026-4ff4-a6f9-82088c37904b")
+		(uuid "ad8e0d44-ee72-4a83-822e-5c28194ea832")
 	)
 	(segment
 		(start 145.97 101.26)
@@ -8666,6 +8294,10 @@
 			"49db2e85-01d2-4892-9115-598ac425f846" "8856cb3b-4ca0-492b-a078-8042acf45af3"
 			"9fd3be48-a359-4853-8148-cafec2fa3f5f"
 		)
+	)
+	(group ""
+		(uuid "4bc749b0-fbf4-4e99-b26d-97de473e479d")
+		(members "4c499f98-42b6-4477-9249-d54e32f57c19" "83076b2b-a3fb-4e1f-89f0-3b360b07e7ff")
 	)
 	(embedded_fonts no)
 )

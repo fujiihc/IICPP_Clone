@@ -1287,10 +1287,22 @@
 		(uuid "a9614d8c-3485-4479-9e8c-e253aaf37414")
 	)
 	(junction
+		(at 137.16 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdf7c131-d7ad-4d27-9611-bbb4767da4d9")
+	)
+	(junction
 		(at 140.97 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd09b5e5-2efc-4447-8120-fbdc5cd10168")
+	)
+	(junction
+		(at 137.16 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da1a552f-bc26-4c1a-896b-c374b9b379a0")
 	)
 	(junction
 		(at 123.19 152.4)
@@ -1333,16 +1345,6 @@
 			(type default)
 		)
 		(uuid "07edc5f3-c3e5-4671-be57-05691169b000")
-	)
-	(wire
-		(pts
-			(xy 128.27 177.8) (xy 123.19 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09ddcdff-8b46-41dd-94de-add57b36c2fc")
 	)
 	(wire
 		(pts
@@ -1526,13 +1528,33 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 177.8) (xy 140.97 177.8)
+			(xy 135.89 177.8) (xy 137.16 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "360c4aa5-f378-48d6-8946-72fb316f0e5a")
+	)
+	(wire
+		(pts
+			(xy 127 184.15) (xy 127 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37032015-e42e-44b9-862e-b0ba528e8746")
+	)
+	(wire
+		(pts
+			(xy 127 180.34) (xy 137.16 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b23a2ea-2fac-4fec-899f-bdab195797eb")
 	)
 	(wire
 		(pts
@@ -1546,6 +1568,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 157.48) (xy 86.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433c9541-e458-4248-8957-7255822fee75")
+	)
+	(wire
+		(pts
 			(xy 101.6 113.03) (xy 121.92 113.03)
 		)
 		(stroke
@@ -1556,6 +1588,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 180.34) (xy 137.16 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a1c15b-ef3d-430b-a915-790f7f0eb994")
+	)
+	(wire
+		(pts
+			(xy 72.39 157.48) (xy 86.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af85149-8bc5-4922-b86d-5d032ab436fd")
+	)
+	(wire
+		(pts
 			(xy 78.74 76.2) (xy 90.17 76.2)
 		)
 		(stroke
@@ -1563,6 +1615,16 @@
 			(type default)
 		)
 		(uuid "520cdc9e-492b-426e-a582-696c37039713")
+	)
+	(wire
+		(pts
+			(xy 123.19 177.8) (xy 128.27 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e80e9f-43f9-4904-9dc6-718486235e96")
 	)
 	(wire
 		(pts
@@ -1653,6 +1715,16 @@
 			(type default)
 		)
 		(uuid "6206fa81-c47d-485b-b1eb-4932a1e49697")
+	)
+	(wire
+		(pts
+			(xy 137.16 184.15) (xy 137.16 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ad80a9-6e9f-4f95-aacf-a50af821fdbd")
 	)
 	(wire
 		(pts
@@ -1943,6 +2015,16 @@
 			(type default)
 		)
 		(uuid "c116d954-6c40-49a5-90b6-2931bf26ad2c")
+	)
+	(wire
+		(pts
+			(xy 137.16 177.8) (xy 140.97 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a750a0-56b7-4bff-934b-cbd578a84245")
 	)
 	(wire
 		(pts
@@ -2295,6 +2377,73 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "014e2848-941c-4ba8-afe7-05ce177cf4f8")
+		(property "Reference" "TP13"
+			(at 129.54 186.1819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND 3"
+			(at 129.54 188.7219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "HiroFootprints:WirePad"
+			(at 121.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aaad42c-1982-4a71-b903-9ac1ac45db87")
+		)
+		(instances
+			(project "Power_Supply_V1.0"
+				(path "/f42831a0-a43a-4f73-b829-ec05b95cdb03"
+					(reference "TP13")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2824,7 +2973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" "HiroFootprints:WirePad"
 			(at 124.46 138.43 0)
 			(effects
 				(font
@@ -2889,7 +3038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" "HiroFootprints:WirePad"
 			(at 176.53 64.77 0)
 			(effects
 				(font
@@ -3808,7 +3957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" "HiroFootprints:WirePad"
 			(at 179.07 97.79 0)
 			(effects
 				(font
@@ -3849,6 +3998,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 137.16 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f1d5c56-e4e8-43e7-8c21-0edbfb87d34c")
+		(property "Reference" "TP14"
+			(at 139.7 186.1819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND 4"
+			(at 139.7 188.7219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "HiroFootprints:WirePad"
+			(at 132.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72892683-80de-41d9-a10a-b243b0824086")
+		)
+		(instances
+			(project "Power_Supply_V1.0"
+				(path "/f42831a0-a43a-4f73-b829-ec05b95cdb03"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 111.76 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3875,7 +4091,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" "HiroFootprints:WirePad"
 			(at 106.68 166.37 0)
 			(effects
 				(font
@@ -4001,6 +4217,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 72.39 157.48 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94907bf7-d690-4fef-8b97-b2fa2be2284f")
+		(property "Reference" "TP15"
+			(at 74.93 162.0521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bias Tap Out"
+			(at 74.93 159.5121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HiroFootprints:WirePad"
+			(at 77.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 72.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bde3ea0-1b59-4fcb-b532-135bc9a1b04c")
+		)
+		(instances
+			(project "Power_Supply_V1.0"
+				(path "/f42831a0-a43a-4f73-b829-ec05b95cdb03"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 194.31 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4025,7 +4308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" "HiroFootprints:WirePad"
 			(at 194.31 64.77 0)
 			(effects
 				(font
@@ -4156,7 +4439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" "HiroFootprints:WirePad"
 			(at 158.75 64.77 0)
 			(effects
 				(font
@@ -5080,7 +5363,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" "HiroFootprints:WirePad"
 			(at 158.75 97.79 0)
 			(effects
 				(font
