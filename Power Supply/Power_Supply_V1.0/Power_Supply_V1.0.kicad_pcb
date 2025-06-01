@@ -3202,13 +3202,13 @@
 	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
 		(layer "F.Cu")
 		(uuid "73520c11-78e8-4aa2-b494-3970cb198aad")
-		(at 65.69 126.06)
+		(at 65.42 126)
 		(property "Reference" "TP10"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7005846f-3978-4fd4-a409-2f2fb9269002")
+			(uuid "96062b5d-f71c-431a-997a-32031327aeed")
 			(effects
 				(font
 					(size 1 1)
@@ -3220,7 +3220,7 @@
 			(at 0 3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4e44740a-93f9-4350-a90b-58fcc3997e72")
+			(uuid "09da1749-984f-4ac8-a783-ee11fe0735e2")
 			(effects
 				(font
 					(size 1 1)
@@ -3233,7 +3233,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8437899f-e972-4048-afb3-afbfe4decff7")
+			(uuid "355f9c1c-40ea-4f24-aceb-4a95c9d8fdab")
 			(effects
 				(font
 					(size 1 1)
@@ -3246,7 +3246,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "818eb39b-10d2-4f5a-8950-1d2c64101e81")
+			(uuid "5d1c86bc-092f-47ee-8808-0ba8cca86524")
 			(effects
 				(font
 					(size 1 1)
@@ -3600,13 +3600,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "833f2730-dbb3-411a-8099-690c5abfb764")
-		(at 59.6 97.66 -90)
+		(at 59.33 97.6 -90)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D4"
 			(at 5.37 -0.07 90)
 			(layer "F.SilkS")
-			(uuid "f464028b-3888-4d25-93b4-443c546acb48")
+			(uuid "96bab7c8-c69c-41cd-92ff-5fbf79990177")
 			(effects
 				(font
 					(size 1 1)
@@ -3617,7 +3617,7 @@
 		(property "Value" "1N4006"
 			(at 5.08 2.47 90)
 			(layer "F.Fab")
-			(uuid "68509a1b-ce0d-4e59-8843-7e49277ea5c2")
+			(uuid "e9af4a13-84c8-4739-a07e-84ad4744bfa2")
 			(effects
 				(font
 					(size 1 1)
@@ -3630,7 +3630,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd96ea47-0aaa-4be3-896d-ba1bc993b012")
+			(uuid "1b7ec24a-05fb-4d9d-a9e3-37cae0e0d98a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3643,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83bc7aed-eef3-4926-a67e-fb604e8ce9a0")
+			(uuid "5994fec7-bb00-4eed-a2b3-9e81a096fdde")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,13 +4227,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9b205a05-e6a3-4caf-8216-aaf1cccfcb9a")
-		(at 74.945625 124.74 90)
+		(at 74.55 124.75 90)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D6"
 			(at 5.43 0.01 90)
 			(layer "F.SilkS")
-			(uuid "93b54fef-b179-488d-9e79-0f2da9226130")
+			(uuid "8999be13-d4dc-4a9a-be5c-6d387d8f15bb")
 			(effects
 				(font
 					(size 1 1)
@@ -4244,7 +4244,7 @@
 		(property "Value" "1N4006"
 			(at 5.08 2.47 90)
 			(layer "F.Fab")
-			(uuid "28bb05ea-e716-42d2-9284-ae713f44d4d7")
+			(uuid "dc6424a9-8ef0-41cd-818a-8c44f4801902")
 			(effects
 				(font
 					(size 1 1)
@@ -4257,7 +4257,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9dd04607-1fe2-4c0b-bc3d-9ab0db83caac")
+			(uuid "517f5121-14a0-44d8-bfde-5bcd61f607a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4270,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d93abc2-845e-4d19-8931-95392a14dd06")
+			(uuid "bf72d5b6-2456-4e8e-a351-3acf5f9a6ca5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,13 +4853,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a6239d50-b15c-4ef7-a2a7-e916ceafef14")
-		(at 65.72 111.35 -90)
+		(at 65.45 111.29 -90)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D1"
 			(at 5.34 -0.05 90)
 			(layer "F.SilkS")
-			(uuid "c8304f71-af1b-4cc7-94c3-ed2982c7f8c3")
+			(uuid "dcb3f641-3229-4501-b726-2c6c71e78dc4")
 			(effects
 				(font
 					(size 1 1)
@@ -4870,7 +4870,7 @@
 		(property "Value" "1N4006"
 			(at 5.08 2.47 90)
 			(layer "F.Fab")
-			(uuid "6f2dc811-6666-4add-b8f1-731edf7adcb3")
+			(uuid "f12bc54d-ad17-435b-bc39-2aa82b9aada5")
 			(effects
 				(font
 					(size 1 1)
@@ -4883,7 +4883,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2cf45172-1b0e-4e2e-a2af-cc8674da0ac5")
+			(uuid "ac69d280-94c2-4024-8a9d-5bff60ac71e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +4896,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c9cd380-9439-49dc-a451-f5decfee0f2a")
+			(uuid "f05c5c17-f7ff-4fef-bd26-06a682adcf25")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,13 +5215,13 @@
 	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
 		(layer "F.Cu")
 		(uuid "aa54abbb-0376-41be-959c-365f27af6e8c")
-		(at 62.76 86.33)
+		(at 62.28 88.59)
 		(property "Reference" "TP1"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "17e2bc74-b300-467e-bd9c-e3836bd6c209")
+			(uuid "e005bae4-4f7a-4d05-89ea-805b0f3280e7")
 			(effects
 				(font
 					(size 1 1)
@@ -5233,7 +5233,7 @@
 			(at 0.56 3.1 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f00d8db7-49d4-4144-9a48-20d797e33bca")
+			(uuid "73a79c9c-e240-47be-9b0c-51a59e82800d")
 			(effects
 				(font
 					(size 1 1)
@@ -5246,7 +5246,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2e72229-ccd5-40f6-9121-dcbc28ee5df1")
+			(uuid "2f858efe-f267-4be5-bc87-070bdc036ccc")
 			(effects
 				(font
 					(size 1 1)
@@ -5259,7 +5259,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1bce29a7-882d-4523-86c0-6f5e8e6dae3b")
+			(uuid "74e1cadd-2765-4b6e-8cc1-7862f843121e")
 			(effects
 				(font
 					(size 1 1)
@@ -5350,7 +5350,7 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ab5ef135-8df8-486f-9c0a-a8eff5f848c4")
-		(at 71.3 124.76 90)
+		(at 70.37 124.74 90)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D5"
@@ -5810,13 +5810,13 @@
 	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
 		(layer "F.Cu")
 		(uuid "b0f231df-6044-4a1b-893d-f372ff766bb8")
-		(at 73.24 129.64)
+		(at 72.54 129.02)
 		(property "Reference" "TP9"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "28239fad-e0a7-4209-8cec-ba1cffe2e199")
+			(uuid "1ead7c0c-e412-40a4-a453-7374aec16898")
 			(effects
 				(font
 					(size 1 1)
@@ -5828,7 +5828,7 @@
 			(at 0.51 2.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "aed7f416-4844-4b84-bbfe-c05cb3869984")
+			(uuid "992f8ca0-3c83-4beb-a547-8fd9bb35d5c1")
 			(effects
 				(font
 					(size 1 1)
@@ -5841,7 +5841,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06e12b6d-5e67-438a-81d0-ae8aa3ed8382")
+			(uuid "03314c7c-ed70-4d72-a6ad-65adda86e768")
 			(effects
 				(font
 					(size 1 1)
@@ -5854,7 +5854,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b69b060-dac6-4140-a026-2a92664c75da")
+			(uuid "eb49edc3-b026-4133-91de-1c61717abad7")
 			(effects
 				(font
 					(size 1 1)
@@ -7304,13 +7304,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b89ac27a-8c74-4d47-a973-decbcd370ba5")
-		(at 65.71 97.66 -90)
+		(at 65.44 97.6 -90)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D2"
 			(at 5.34 0 90)
 			(layer "F.SilkS")
-			(uuid "4414dfea-5e53-4daa-bf9e-d97416ecf112")
+			(uuid "bb1bee0b-aa52-4a66-b442-614b9875ac72")
 			(effects
 				(font
 					(size 1 1)
@@ -7321,7 +7321,7 @@
 		(property "Value" "1N4006"
 			(at 5.08 2.47 90)
 			(layer "F.Fab")
-			(uuid "5e26f64d-e6be-4fec-8feb-555ced61d728")
+			(uuid "eb1d119a-46f8-499e-bd80-ad47b068747b")
 			(effects
 				(font
 					(size 1 1)
@@ -7334,7 +7334,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbb51f59-75c7-44d8-940d-82086c692652")
+			(uuid "4263e1ef-c452-4eda-8b3e-411f817ea6d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7347,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "053c58cd-7912-48e1-8093-5b59629879e8")
+			(uuid "586ff31a-9a16-4eb4-a82b-fdd3c7bcb2f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,13 +7929,13 @@
 	(footprint "HiroFootprints:Out_Hole_3.4_1.8"
 		(layer "F.Cu")
 		(uuid "d5b1ab17-7ffc-4adc-8d80-29b4b8f41b41")
-		(at 59.57 126.06)
+		(at 59.3 126)
 		(property "Reference" "TP11"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a57baeae-1846-4336-aca4-b7a903c3b09c")
+			(uuid "5f2c87a0-1ba1-40fd-bc32-2036c16be1a3")
 			(effects
 				(font
 					(size 1 1)
@@ -7947,7 +7947,7 @@
 			(at -0.11 2.99 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "e79eee83-ca0b-4a33-a0f5-c3a1c437ae64")
+			(uuid "4baf399e-ef60-4ffb-94f0-2488a1a76b4e")
 			(effects
 				(font
 					(size 1 1)
@@ -7960,7 +7960,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d5c373c-b4cf-4b6d-af80-009dcc79c8df")
+			(uuid "72f020cd-98e5-4d54-bc83-1f6cd62acd48")
 			(effects
 				(font
 					(size 1 1)
@@ -7973,7 +7973,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85bd78a2-7605-4ecb-90f9-e28ffb010f9c")
+			(uuid "933932cc-d3fc-44fa-8eb2-7e54f4ec95f9")
 			(effects
 				(font
 					(size 1 1)
@@ -8064,13 +8064,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d7f53931-6f97-4547-8e63-48aa68de2d7e")
-		(at 59.6 111.35 -90)
+		(at 59.33 111.29 -90)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D3"
 			(at 5.29 0.03 90)
 			(layer "F.SilkS")
-			(uuid "c3cc7352-2485-4aa5-a3c8-8ee4614aa64c")
+			(uuid "cbbc623c-1a56-436c-8642-ed8bad1b7fa4")
 			(effects
 				(font
 					(size 1 1)
@@ -8081,7 +8081,7 @@
 		(property "Value" "1N4006"
 			(at 5.08 2.47 90)
 			(layer "F.Fab")
-			(uuid "d304ab81-d330-49da-86e4-311a3ebd84a7")
+			(uuid "3a85e9db-c3fa-4afd-8f9f-f3a632da8323")
 			(effects
 				(font
 					(size 1 1)
@@ -8094,7 +8094,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5346d9cb-a014-49a9-a0e8-8163da9bce54")
+			(uuid "7a237602-2587-40fa-876b-a5129378d05f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8107,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "076e304a-9f92-4882-b6ed-d1cf29326dbd")
+			(uuid "86e5acd2-3640-4811-a98b-d4c458209393")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,20 +10408,12 @@
 		)
 	)
 	(segment
-		(start 62.77 97.66)
-		(end 65.71 97.66)
+		(start 62.28 88.59)
+		(end 62.28 97.6)
 		(width 2.8)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "3545ddfb-4206-43ad-b9cb-72de13e841a8")
-	)
-	(segment
-		(start 62.76 86.33)
-		(end 62.76 97.65)
-		(width 2.8)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "384e9e70-38d8-4318-9350-771ddfed3b9a")
+		(uuid "04152378-d01c-4d72-be6a-1469a6decd98")
 	)
 	(segment
 		(start 80.99 86.0925)
@@ -10432,28 +10424,36 @@
 		(uuid "398a4a48-6604-4e8a-bc52-4dc4d8f29765")
 	)
 	(segment
+		(start 76.9475 86.0925)
+		(end 65.44 97.6)
+		(width 2.8)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "79429141-79fc-46aa-889d-2416b0d3a175")
+	)
+	(segment
+		(start 62.28 97.6)
+		(end 65.44 97.6)
+		(width 2.8)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "7bf030eb-f56d-45a4-b590-0ad51e7a7047")
+	)
+	(segment
+		(start 59.33 97.6)
+		(end 62.28 97.6)
+		(width 2.8)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "97b0962e-fe58-4e83-a4a5-866d5af539ea")
+	)
+	(segment
 		(start 73.075 72.775)
 		(end 73.075 76.72)
 		(width 2.8)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "9925ea2d-37ad-408f-a2cb-0e9d2c085a74")
-	)
-	(segment
-		(start 59.6 97.66)
-		(end 62.77 97.66)
-		(width 2.8)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "9c2b42cb-cebb-4a4d-a6d7-144e5969f0ca")
-	)
-	(segment
-		(start 80.99 86.0925)
-		(end 77.2775 86.0925)
-		(width 2.8)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "9fe9d846-db4b-4694-8153-0013b0c10163")
 	)
 	(segment
 		(start 73.075 78.1775)
@@ -10464,25 +10464,17 @@
 		(uuid "b534d08d-5441-4475-a7d5-26a0f7a40e88")
 	)
 	(segment
-		(start 62.76 97.65)
-		(end 62.77 97.66)
+		(start 80.99 86.0925)
+		(end 76.9475 86.0925)
 		(width 2.8)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "d1865eaf-7a68-4adc-9f1b-4563ff558d07")
-	)
-	(segment
-		(start 77.2775 86.0925)
-		(end 65.71 97.66)
-		(width 2.8)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "f1df7648-4b15-4fad-85e1-4aaa3000aae2")
+		(uuid "d359da6c-4e2c-4723-9c06-508faca0f0d4")
 	)
 	(segment
 		(start 115.9125 76.72)
 		(end 133.075 76.72)
-		(width 3)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "38e71150-9f99-4255-bcdb-74281969eb75")
@@ -10490,7 +10482,7 @@
 	(segment
 		(start 101.31 86.0925)
 		(end 106.54 86.0925)
-		(width 3)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "50e36196-c1d8-43b8-ad32-5450c9bd9077")
@@ -10498,7 +10490,7 @@
 	(segment
 		(start 106.54 86.0925)
 		(end 115.9125 76.72)
-		(width 3)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "f966b87e-30eb-419f-ba88-7f5a2d511f0e")
@@ -10674,7 +10666,7 @@
 	(segment
 		(start 170.625 119.45)
 		(end 176.375 125.2)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 5)
 		(uuid "7c81198a-3632-4b3e-8063-9be22d1f7fe4")
@@ -10682,7 +10674,7 @@
 	(segment
 		(start 144.87 122.48)
 		(end 147.9 119.45)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 5)
 		(uuid "8cac33c9-d6f7-452b-99a4-b413f154d9eb")
@@ -10690,7 +10682,7 @@
 	(segment
 		(start 147.9 119.45)
 		(end 170.625 119.45)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 5)
 		(uuid "f884c2ee-c880-46c5-a034-1e446aa1daaf")
@@ -10698,7 +10690,7 @@
 	(segment
 		(start 201.938 127.45)
 		(end 200.42 127.45)
-		(width 3)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 6)
 		(uuid "48dd3d29-de31-4680-aa35-772972abdbe4")
@@ -10706,7 +10698,7 @@
 	(segment
 		(start 204.188 125.2)
 		(end 201.938 127.45)
-		(width 3)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 6)
 		(uuid "e5a8a73c-cf28-4649-aab8-d141c3c62c17")
@@ -10714,7 +10706,7 @@
 	(segment
 		(start 194.188 115.2)
 		(end 204.188 125.2)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 6)
 		(uuid "39987a13-5f50-46bb-acfe-1171ed21ac75")
@@ -10722,7 +10714,7 @@
 	(segment
 		(start 141.046777 118.653223)
 		(end 144.5 115.2)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 6)
 		(uuid "5e4716db-ed17-41f8-a717-7d40bf6a0c82")
@@ -10730,7 +10722,7 @@
 	(segment
 		(start 144.5 115.2)
 		(end 194.188 115.2)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 6)
 		(uuid "c5609f4d-ab57-42fd-b02c-f0d69e46f24b")
@@ -10738,7 +10730,7 @@
 	(segment
 		(start 105.54825 117.44)
 		(end 106.937 117.44)
-		(width 3)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 8)
 		(uuid "2644398f-2aa0-4aca-a941-5c531b35e903")
@@ -10746,7 +10738,7 @@
 	(segment
 		(start 102.76825 114.66)
 		(end 105.54825 117.44)
-		(width 3)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 8)
 		(uuid "4a980350-8b4c-448a-bc46-9be2fd49d9bb")
@@ -10754,7 +10746,7 @@
 	(segment
 		(start 125.84 130.47)
 		(end 130.13 130.47)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 8)
 		(uuid "afc3e49d-781a-4ddb-a6a9-735502ef98c6")
@@ -10762,7 +10754,7 @@
 	(segment
 		(start 106.937 117.44)
 		(end 112.81 117.44)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 8)
 		(uuid "c2ddf9c8-eaa9-4b8c-b9b5-d7d349901ef4")
@@ -10770,159 +10762,159 @@
 	(segment
 		(start 112.81 117.44)
 		(end 125.84 130.47)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 8)
 		(uuid "f24aaa53-0861-4056-9144-3074ef29c90f")
 	)
 	(segment
-		(start 65.72 107.83)
-		(end 65.71 107.82)
-		(width 3)
+		(start 65.45 107.77)
+		(end 65.44 107.76)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 9)
 		(uuid "9b0e5864-4542-4d3d-87a4-59454308a23f")
 	)
 	(segment
-		(start 65.72 111.35)
-		(end 65.72 107.83)
-		(width 3)
+		(start 65.45 111.29)
+		(end 65.45 107.77)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 9)
 		(uuid "9c8b6e36-7a48-4c9e-a448-ac8acf1cecdd")
 	)
 	(segment
-		(start 65.69 121.54)
-		(end 65.72 121.51)
-		(width 0.2)
+		(start 65.42 121.48)
+		(end 65.45 121.45)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 10)
 		(uuid "1f6b35b9-eb62-4fa7-95ee-18924443af7e")
 	)
 	(segment
-		(start 65.69 126.06)
-		(end 65.69 121.54)
+		(start 65.42 126)
+		(end 65.42 121.48)
 		(width 2.8)
 		(layer "F.Cu")
 		(net 10)
 		(uuid "adb8b222-b58a-4cad-bab2-9d17424c91cd")
 	)
 	(segment
-		(start 59.6 121.51)
-		(end 59.6 126.03)
+		(start 59.33 121.45)
+		(end 59.33 125.97)
 		(width 2.8)
 		(layer "F.Cu")
 		(net 11)
 		(uuid "2f7f5072-8321-4413-a37b-ffa002f4b575")
 	)
 	(segment
-		(start 59.6 126.03)
-		(end 59.57 126.06)
-		(width 0.2)
+		(start 59.33 125.97)
+		(end 59.3 126)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 11)
 		(uuid "5fb4a55b-f550-4ff4-9b89-8873e5954da2")
 	)
 	(segment
-		(start 59.6 107.82)
-		(end 59.6 111.35)
-		(width 3)
+		(start 59.33 107.76)
+		(end 59.33 111.29)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 12)
 		(uuid "6c0b9635-798e-45ee-87c1-5d69cf1cf387")
 	)
 	(segment
-		(start 71.3 117.65)
-		(end 74.06 120.41)
-		(width 3)
-		(layer "F.Cu")
-		(net 13)
-		(uuid "02a5e3df-0d98-403d-bf4c-257ae92b5fb5")
-	)
-	(segment
-		(start 74.06 120.41)
-		(end 76.4645 120.41)
-		(width 3)
-		(layer "F.Cu")
-		(net 13)
-		(uuid "433ef3f2-7326-4c32-9813-3c05e0dc45b5")
-	)
-	(segment
-		(start 76.4645 120.41)
+		(start 75.5045 119.45)
 		(end 78.2795 122.225)
-		(width 3)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 13)
-		(uuid "a0114d05-3a1b-4ce6-89ee-f488cfa99188")
+		(uuid "0fc43f5b-a64a-41dc-91b6-6621805de296")
 	)
 	(segment
-		(start 71.3 114.6)
-		(end 71.3 117.65)
-		(width 3)
+		(start 70.37 114.58)
+		(end 70.37 118)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 13)
-		(uuid "c931132e-f95c-4fff-82a1-ae6db2d67692")
+		(uuid "1eb7fda3-2823-4c68-b567-c6ec903fe68e")
 	)
 	(segment
-		(start 73.24 124.81)
-		(end 73.17 124.74)
+		(start 71.82 119.45)
+		(end 75.5045 119.45)
+		(width 2.8)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "c5bd1579-e648-46ad-b3e3-c9613dad0d64")
+	)
+	(segment
+		(start 70.37 118)
+		(end 71.82 119.45)
+		(width 2.8)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "ff8a3ec6-63c6-4f54-a1ba-45b969b28275")
+	)
+	(segment
+		(start 74.54 124.74)
+		(end 74.55 124.75)
 		(width 2.8)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "2bf1284b-d863-443a-b0eb-c2acdcd4b0e4")
+		(uuid "3c82a222-67da-479b-ab3e-1da715334b80")
 	)
 	(segment
-		(start 71.32 124.74)
-		(end 71.3 124.76)
+		(start 72.54 129.02)
+		(end 72.54 124.75)
 		(width 2.8)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "3d29437f-5a73-42e9-8e2f-b8e40c14aee1")
+		(uuid "565e26ea-c96d-44d3-b3c5-c75f3ab672ec")
 	)
 	(segment
-		(start 73.24 129.64)
-		(end 73.24 124.81)
+		(start 72.54 124.75)
+		(end 72.55 124.74)
 		(width 2.8)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "880b5f8c-b596-43b4-8d15-4cf1cc2a8936")
+		(uuid "7379c07b-fafc-4b70-abcc-cc6bf5b5dec5")
 	)
 	(segment
-		(start 74.945625 124.74)
-		(end 73.17 124.74)
+		(start 72.55 124.74)
+		(end 74.54 124.74)
 		(width 2.8)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "b3263034-8a50-4603-9e21-e9f677fd3ab1")
+		(uuid "92437612-fe42-4337-8f5d-c03a8d9c101b")
 	)
 	(segment
-		(start 73.17 124.74)
-		(end 71.32 124.74)
+		(start 70.37 124.74)
+		(end 72.55 124.74)
 		(width 2.8)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "bc9669cd-9e99-4859-99f5-d442f2193bf7")
+		(uuid "fff38bfa-fee4-4eb3-a20c-ea68e6b666e7")
 	)
 	(segment
-		(start 74.945625 114.58)
-		(end 76.330625 115.965)
-		(width 3)
-		(layer "F.Cu")
-		(net 15)
-		(uuid "7e3bd640-5935-4a2b-9717-2fc808e8aead")
-	)
-	(segment
-		(start 76.330625 115.965)
+		(start 76.9045 114.59)
 		(end 78.2795 115.965)
-		(width 3)
+		(width 2.8)
 		(layer "F.Cu")
 		(net 15)
-		(uuid "a8ed136e-b38e-4778-850a-9dbe3ff77465")
+		(uuid "7d36242d-96c5-49eb-81c8-0f0a58ba433b")
+	)
+	(segment
+		(start 74.55 114.59)
+		(end 76.9045 114.59)
+		(width 2.8)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "bd1ea0c0-f3e4-4271-9eb2-4d69b9acbe1b")
 	)
 	(segment
 		(start 104.2545 121.62)
 		(end 108.68 121.62)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 16)
 		(uuid "16139ea9-2971-404b-8809-0e128087141b")
@@ -10930,7 +10922,7 @@
 	(segment
 		(start 108.68 121.62)
 		(end 121.64 134.58)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 16)
 		(uuid "7ddfabf4-7941-4452-8559-524b40c593d8")
@@ -10938,7 +10930,7 @@
 	(segment
 		(start 98.5995 115.965)
 		(end 104.2545 121.62)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 16)
 		(uuid "e2210e52-670b-453f-b738-0a30a23e7417")
@@ -10946,7 +10938,7 @@
 	(segment
 		(start 121.64 134.58)
 		(end 131.83 134.58)
-		(width 3)
+		(width 2.8)
 		(layer "B.Cu")
 		(net 16)
 		(uuid "ef347716-c61c-464a-97f8-778109679be9")
