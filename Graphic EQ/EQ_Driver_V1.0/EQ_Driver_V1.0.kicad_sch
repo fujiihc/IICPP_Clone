@@ -2947,7 +2947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.0mm_W3.5mm_P10.00mm_MKT"
+		(property "Footprint" "HiroFootprints:10_47_120_180_250_500pF_1KV_Cer_6.4_4.0_6.4"
 			(at 157.48 91.1352 0)
 			(effects
 				(font
@@ -3869,7 +3869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.0mm_W3.5mm_P10.00mm_MKT"
+		(property "Footprint" "HiroFootprints:10_47_120_180_250_500pF_1KV_Cer_6.4_4.0_6.4"
 			(at 152.4 71.4248 0)
 			(effects
 				(font
