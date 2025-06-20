@@ -18,6 +18,7 @@ An important note, this project is for educational purposes and personal use onl
 
 ## Table of Contents 
   **PROJECTS WERE CREATED IN KICAD 9.0**
+  - [Custom Libraries](/Custom%20Libraries): Contains Custom Footprints for Parts Not Available from KICAD Default Libraries.
   - [Experiments](/Experiments): Contains Experimental Layouts and Ideas That Haven't Been Confirmed/Finalized.
   - [Graphic EQ](/Graphic%20EQ): Contains KICAD Projects with Schematics, PCB Designs, and Gerber Files for 5-Band EQ Driver and Slider Boards.
   - [Images](/Images): Contains Images for Various README's.
