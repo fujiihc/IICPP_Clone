@@ -3112,7 +3112,7 @@
 		)
 		(uuid "1b51d848-ea4c-4d09-b94d-cc291e3c27db")
 	)
-	(text "X"
+	(text "X?"
 		(exclude_from_sim no)
 		(at 248.666 106.172 0)
 		(effects
@@ -3148,7 +3148,7 @@
 		)
 		(uuid "2f0b0666-5942-42c7-a178-c234271d8d5f")
 	)
-	(text "X"
+	(text "X?"
 		(exclude_from_sim no)
 		(at 238.252 106.934 0)
 		(effects
@@ -3226,9 +3226,9 @@
 		)
 		(uuid "40119296-c293-4ca4-a168-3ebd03ae57a9")
 	)
-	(text "X"
+	(text "X?"
 		(exclude_from_sim no)
-		(at 152.146 215.138 0)
+		(at 152.908 215.646 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3480,7 +3480,7 @@
 	)
 	(text "R12, C12, SW2 for C++"
 		(exclude_from_sim no)
-		(at 247.904 113.03 0)
+		(at 239.268 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3544,7 +3544,7 @@
 		)
 		(uuid "ac841317-edd8-413e-9030-ebc910d709b1")
 	)
-	(text "X"
+	(text "X?"
 		(exclude_from_sim no)
 		(at 275.082 101.092 0)
 		(effects
@@ -4034,12 +4034,6 @@
 		(uuid "198ea152-3360-42dd-bb01-84b1b1252b54")
 	)
 	(junction
-		(at 229.87 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b4fdcfa-f97e-4f9f-b828-8bea66d509aa")
-	)
-	(junction
 		(at 308.61 303.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4352,12 +4346,6 @@
 		(uuid "5df1d0a3-bca0-46ed-a873-ef8dd89a31f2")
 	)
 	(junction
-		(at 276.86 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5eb45eab-b38a-4b39-9cf4-49c17736251c")
-	)
-	(junction
 		(at 168.91 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4440,6 +4428,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "725d7ff3-0a4f-45d9-98d0-05f013c501e4")
+	)
+	(junction
+		(at 252.73 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "727067e5-6c18-4104-85c7-ba99b3db5106")
 	)
 	(junction
 		(at 392.43 213.36)
@@ -4686,6 +4680,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cedad776-a481-4cd5-b337-3d21f0f61b9b")
+	)
+	(junction
+		(at 276.86 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf21ff7c-5a71-41bf-b09e-c5376a90a213")
 	)
 	(junction
 		(at 332.74 227.33)
@@ -5695,16 +5695,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 104.14) (xy 232.41 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3487a304-8b7a-442b-9d62-be23ce790d17")
-	)
-	(wire
-		(pts
 			(xy 405.13 297.18) (xy 405.13 317.5)
 		)
 		(stroke
@@ -5905,16 +5895,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 105.41) (xy 229.87 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ebc6ca1-7eb5-40da-b1af-49e0eef8d7ee")
-	)
-	(wire
-		(pts
 			(xy 223.52 66.04) (xy 226.06 66.04)
 		)
 		(stroke
@@ -5965,16 +5945,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 93.98) (xy 276.86 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a9e387-4864-466e-8738-664390908b2b")
-	)
-	(wire
-		(pts
 			(xy 237.49 217.17) (xy 237.49 213.36)
 		)
 		(stroke
@@ -6012,6 +5982,16 @@
 			(type default)
 		)
 		(uuid "4335f03e-6bf6-4734-b73d-bbf5d09268ed")
+	)
+	(wire
+		(pts
+			(xy 252.73 104.14) (xy 252.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43914cdb-2afc-440e-95d9-f27aae692f68")
 	)
 	(wire
 		(pts
@@ -6132,6 +6112,16 @@
 			(type default)
 		)
 		(uuid "4b0bf071-3300-4f98-b4a0-47ef87e7cb23")
+	)
+	(wire
+		(pts
+			(xy 274.32 105.41) (xy 276.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b21f03f-c9df-41fe-ad46-8cb8885c06e5")
 	)
 	(wire
 		(pts
@@ -7845,7 +7835,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 104.14) (xy 229.87 104.14)
+			(xy 226.06 104.14) (xy 232.41 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8545,7 +8535,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 101.6) (xy 276.86 107.95)
+			(xy 276.86 101.6) (xy 276.86 105.41)
 		)
 		(stroke
 			(width 0)
@@ -9122,6 +9112,16 @@
 			(type default)
 		)
 		(uuid "f382212b-98bf-4d2c-b273-effdc4e4c1e6")
+	)
+	(wire
+		(pts
+			(xy 276.86 105.41) (xy 276.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4163a31-1712-407b-a28e-86aa45d2b220")
 	)
 	(wire
 		(pts
@@ -10121,7 +10121,7 @@
 				)
 			)
 		)
-		(property "Value" "Send"
+		(property "Value" "Lead FS"
 			(at 230.505 323.85 0)
 			(effects
 				(font
@@ -10199,7 +10199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 247.142 220.98 90)
 			(effects
 				(font
@@ -10346,7 +10346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+		(property "Footprint" "Valve:Valve_ECC-83-2"
 			(at 377.698 316.23 0)
 			(effects
 				(font
@@ -10435,7 +10435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 236.22 105.918 90)
 			(effects
 				(font
@@ -10626,7 +10626,7 @@
 	)
 	(symbol
 		(lib_id "Valve:ECC83")
-		(at 381 190.5 0)
+		(at 154.94 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10635,7 +10635,7 @@
 		(fields_autoplaced yes)
 		(uuid "09bbec85-3d0d-4642-a5c2-00b5100ccd29")
 		(property "Reference" "V3"
-			(at 387.35 189.2299 0)
+			(at 161.29 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10644,7 +10644,7 @@
 			)
 		)
 		(property "Value" "12AX7"
-			(at 387.35 191.7699 0)
+			(at 161.29 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,8 +10652,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
-			(at 387.858 200.66 0)
+		(property "Footprint" "Valve:Valve_ECC-83-2"
+			(at 161.798 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,7 +10662,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.r-type.org/pdfs/ecc83.pdf"
-			(at 381 190.5 0)
+			(at 154.94 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10671,7 +10671,7 @@
 			)
 		)
 		(property "Description" "double triode"
-			(at 381 190.5 0)
+			(at 154.94 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10743,7 +10743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 192.532 220.98 90)
 			(effects
 				(font
@@ -10813,7 +10813,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 229.87 128.27 0)
 			(effects
 				(font
@@ -10879,7 +10879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 210.312 170.18 90)
 			(effects
 				(font
@@ -10956,7 +10956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P12.70mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-201_P15.24mm_Horizontal"
 			(at 132.08 325.12 0)
 			(effects
 				(font
@@ -11000,7 +11000,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 229.87 105.41 180)
+		(at 252.73 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11009,7 +11009,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fd06769-b449-457d-b76c-94f7fb1b048f")
 		(property "Reference" "TP7"
-			(at 232.41 107.4419 0)
+			(at 255.27 113.7919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11018,7 +11018,7 @@
 			)
 		)
 		(property "Value" "CPP1 Out"
-			(at 232.41 109.9819 0)
+			(at 255.27 116.3319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,8 +11026,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
-			(at 224.79 105.41 0)
+		(property "Footprint" ""
+			(at 247.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11036,7 +11036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 105.41 0)
+			(at 247.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11045,7 +11045,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 229.87 105.41 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11318,7 +11318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 152.908 281.94 90)
 			(effects
 				(font
@@ -11453,7 +11453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 379.222 163.83 90)
 			(effects
 				(font
@@ -11522,7 +11522,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L FS"
+		(property "Value" "Lead FS"
 			(at 227.33 311.6579 0)
 			(effects
 				(font
@@ -11531,7 +11531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 229.87 313.69 0)
 			(effects
 				(font
@@ -11673,7 +11673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 396.24 218.44 0)
 			(effects
 				(font
@@ -11815,7 +11815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 141.732 220.98 90)
 			(effects
 				(font
@@ -11882,7 +11882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 172.212 292.1 90)
 			(effects
 				(font
@@ -12376,7 +12376,7 @@
 	)
 	(symbol
 		(lib_id "Valve:ECC83")
-		(at 372.11 81.28 0)
+		(at 279.4 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12385,7 +12385,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c669239-c03f-4e09-aa4c-13fe40250580")
 		(property "Reference" "V2"
-			(at 378.46 80.0099 0)
+			(at 285.75 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12394,7 +12394,7 @@
 			)
 		)
 		(property "Value" "12AX7"
-			(at 378.46 82.5499 0)
+			(at 285.75 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12402,8 +12402,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
-			(at 378.968 91.44 0)
+		(property "Footprint" "Valve:Valve_ECC-83-2"
+			(at 286.258 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12412,7 +12412,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.r-type.org/pdfs/ecc83.pdf"
-			(at 372.11 81.28 0)
+			(at 279.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12421,7 +12421,7 @@
 			)
 		)
 		(property "Description" "double triode"
-			(at 372.11 81.28 0)
+			(at 279.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12571,7 +12571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HiroFootprints:20_750pF_1KV_Cer_7.4_4.0_.6.4"
 			(at 250.19 103.1748 0)
 			(effects
 				(font
@@ -12649,7 +12649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 177.8 311.15 0)
 			(effects
 				(font
@@ -12716,7 +12716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 366.522 219.71 90)
 			(effects
 				(font
@@ -12938,7 +12938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 111.252 118.11 90)
 			(effects
 				(font
@@ -13008,7 +13008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 397.51 185.42 0)
 			(effects
 				(font
@@ -13141,7 +13141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 385.572 118.11 90)
 			(effects
 				(font
@@ -13361,7 +13361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 370.332 58.42 90)
 			(effects
 				(font
@@ -13565,7 +13565,7 @@
 	)
 	(symbol
 		(lib_id "Valve:ECC83")
-		(at 279.4 81.28 0)
+		(at 372.11 81.28 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13574,7 +13574,7 @@
 		(fields_autoplaced yes)
 		(uuid "41cc3a1b-1107-4725-9bb7-ceb02c31e4a4")
 		(property "Reference" "V2"
-			(at 285.75 80.0099 0)
+			(at 378.46 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13583,7 +13583,7 @@
 			)
 		)
 		(property "Value" "12AX7"
-			(at 285.75 82.5499 0)
+			(at 378.46 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13591,8 +13591,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
-			(at 286.258 91.44 0)
+		(property "Footprint" "Valve:Valve_ECC-83-2"
+			(at 378.968 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13601,7 +13601,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.r-type.org/pdfs/ecc83.pdf"
-			(at 279.4 81.28 0)
+			(at 372.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13610,7 +13610,7 @@
 			)
 		)
 		(property "Description" "double triode"
-			(at 279.4 81.28 0)
+			(at 372.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13756,7 +13756,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 156.21 88.9 0)
 			(effects
 				(font
@@ -13896,7 +13896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 154.94 351.028 90)
 			(effects
 				(font
@@ -14108,7 +14108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+		(property "Footprint" "Valve:Valve_ECC-83-2"
 			(at 356.108 316.23 0)
 			(effects
 				(font
@@ -14276,7 +14276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 195.58 300.99 0)
 			(effects
 				(font
@@ -14343,7 +14343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 214.122 118.11 90)
 			(effects
 				(font
@@ -14580,7 +14580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 167.132 220.98 90)
 			(effects
 				(font
@@ -14813,7 +14813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+		(property "Footprint" "Valve:Valve_ECC-83-2"
 			(at 399.288 316.23 0)
 			(effects
 				(font
@@ -14904,7 +14904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 390.652 219.71 90)
 			(effects
 				(font
@@ -15023,7 +15023,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 274.32 93.98 90)
+		(at 274.32 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15031,7 +15031,7 @@
 		(dnp no)
 		(uuid "5b58ef34-93f8-48d5-af07-38398e958f3b")
 		(property "Reference" "TP11"
-			(at 271.018 88.9 90)
+			(at 271.018 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15039,15 +15039,15 @@
 			)
 		)
 		(property "Value" "CPP2 Out"
-			(at 271.526 91.694 90)
+			(at 271.526 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
-			(at 274.32 88.9 0)
+		(property "Footprint" ""
+			(at 274.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15056,7 +15056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 88.9 0)
+			(at 274.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15065,7 +15065,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 274.32 93.98 0)
+			(at 274.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15111,7 +15111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 220.98 319.278 90)
 			(effects
 				(font
@@ -15180,7 +15180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 153.162 170.18 90)
 			(effects
 				(font
@@ -15335,7 +15335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 200.66 332.74 0)
 			(effects
 				(font
@@ -15402,7 +15402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 151.638 83.82 90)
 			(effects
 				(font
@@ -15471,7 +15471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 224.282 118.11 90)
 			(effects
 				(font
@@ -15541,7 +15541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 177.8 275.59 0)
 			(effects
 				(font
@@ -15606,7 +15606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 321.31 192.278 90)
 			(effects
 				(font
@@ -15676,7 +15676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 201.93 213.36 0)
 			(effects
 				(font
@@ -15717,7 +15717,7 @@
 	)
 	(symbol
 		(lib_id "Valve:ECC83")
-		(at 212.09 81.28 0)
+		(at 130.81 81.28 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15726,7 +15726,7 @@
 		(fields_autoplaced yes)
 		(uuid "711ad3af-c6b9-4ef0-ac50-bb5ded46d465")
 		(property "Reference" "V1"
-			(at 218.44 80.0099 0)
+			(at 137.16 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15735,7 +15735,7 @@
 			)
 		)
 		(property "Value" "12AX7"
-			(at 218.44 82.5499 0)
+			(at 137.16 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15743,8 +15743,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
-			(at 218.948 91.44 0)
+		(property "Footprint" "Valve:Valve_ECC-83-2"
+			(at 137.668 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15753,7 +15753,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.r-type.org/pdfs/ecc83.pdf"
-			(at 212.09 81.28 0)
+			(at 130.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15762,7 +15762,7 @@
 			)
 		)
 		(property "Description" "double triode"
-			(at 212.09 81.28 0)
+			(at 130.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15899,7 +15899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal"
 			(at 277.8252 101.6 0)
 			(effects
 				(font
@@ -16052,7 +16052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 195.58 279.4 0)
 			(effects
 				(font
@@ -16119,7 +16119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 409.448 219.71 90)
 			(effects
 				(font
@@ -16188,7 +16188,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 156.21 101.6 0)
 			(effects
 				(font
@@ -16984,7 +16984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 85.09 321.31 0)
 			(effects
 				(font
@@ -17117,7 +17117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 200.66 318.77 0)
 			(effects
 				(font
@@ -17182,7 +17182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 154.94 319.278 90)
 			(effects
 				(font
@@ -17252,7 +17252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 411.48 64.77 0)
 			(effects
 				(font
@@ -17622,7 +17622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 241.3 180.848 90)
 			(effects
 				(font
@@ -17692,7 +17692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 325.882 204.47 90)
 			(effects
 				(font
@@ -17903,7 +17903,7 @@
 				)
 			)
 		)
-		(property "Value" "Return"
+		(property "Value" "Reverb FS"
 			(at 380.365 208.28 0)
 			(effects
 				(font
@@ -17982,7 +17982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 189.992 267.97 90)
 			(effects
 				(font
@@ -18049,7 +18049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 214.63 317.5 0)
 			(effects
 				(font
@@ -18182,7 +18182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 398.78 77.47 0)
 			(effects
 				(font
@@ -18312,7 +18312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 317.5 110.49 0)
 			(effects
 				(font
@@ -18520,7 +18520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 224.282 220.98 90)
 			(effects
 				(font
@@ -18654,7 +18654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 292.1 113.03 0)
 			(effects
 				(font
@@ -18695,7 +18695,7 @@
 	)
 	(symbol
 		(lib_id "Valve:ECC83")
-		(at 130.81 81.28 0)
+		(at 212.09 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18703,7 +18703,7 @@
 		(dnp no)
 		(uuid "ade63bfe-2b72-4fab-b86b-862061ba04ff")
 		(property "Reference" "V1"
-			(at 137.16 80.0099 0)
+			(at 218.44 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18712,7 +18712,7 @@
 			)
 		)
 		(property "Value" "12AX7"
-			(at 137.16 82.5499 0)
+			(at 218.44 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18720,8 +18720,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
-			(at 137.668 91.44 0)
+		(property "Footprint" "Valve:Valve_ECC-83-2"
+			(at 218.948 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18730,7 +18730,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.r-type.org/pdfs/ecc83.pdf"
-			(at 130.81 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18739,7 +18739,7 @@
 			)
 		)
 		(property "Description" "double triode"
-			(at 130.81 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18891,7 +18891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 300.482 69.85 90)
 			(effects
 				(font
@@ -18961,7 +18961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 134.112 118.11 90)
 			(effects
 				(font
@@ -19107,7 +19107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
 			(at 210.5152 212.09 0)
 			(effects
 				(font
@@ -19236,7 +19236,7 @@
 	)
 	(symbol
 		(lib_id "Valve:ECC83")
-		(at 340.36 190.5 0)
+		(at 212.09 191.77 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19245,7 +19245,7 @@
 		(fields_autoplaced yes)
 		(uuid "b85ed604-8330-479c-8733-c67667495705")
 		(property "Reference" "V4"
-			(at 346.71 189.2299 0)
+			(at 218.44 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19254,7 +19254,7 @@
 			)
 		)
 		(property "Value" "12AX7"
-			(at 346.71 191.7699 0)
+			(at 218.44 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19262,8 +19262,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
-			(at 347.218 200.66 0)
+		(property "Footprint" "Valve:Valve_ECC-83-2"
+			(at 218.948 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19272,7 +19272,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.r-type.org/pdfs/ecc83.pdf"
-			(at 340.36 190.5 0)
+			(at 212.09 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19281,7 +19281,7 @@
 			)
 		)
 		(property "Description" "double triode"
-			(at 340.36 190.5 0)
+			(at 212.09 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19421,7 +19421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 344.932 219.71 90)
 			(effects
 				(font
@@ -20008,7 +20008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 119.38 179.07 0)
 			(effects
 				(font
@@ -20072,7 +20072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 306.07 90.17 0)
 			(effects
 				(font
@@ -20219,7 +20219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+		(property "Footprint" "Valve:Valve_ECC-83-2"
 			(at 420.878 316.23 0)
 			(effects
 				(font
@@ -20310,7 +20310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 287.782 97.79 90)
 			(effects
 				(font
@@ -20602,7 +20602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 337.312 123.19 90)
 			(effects
 				(font
@@ -20672,7 +20672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 181.102 185.42 90)
 			(effects
 				(font
@@ -20740,7 +20740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 393.7 67.818 90)
 			(effects
 				(font
@@ -20810,7 +20810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal"
 			(at 163.322 72.39 90)
 			(effects
 				(font
@@ -20880,7 +20880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 373.38 115.57 0)
 			(effects
 				(font
@@ -20937,7 +20937,7 @@
 				)
 			)
 		)
-		(property "Value" "Send"
+		(property "Value" "EQ FS"
 			(at 165.735 309.88 0)
 			(effects
 				(font
@@ -20989,7 +20989,7 @@
 	)
 	(symbol
 		(lib_id "Valve:ECC83")
-		(at 212.09 191.77 0)
+		(at 340.36 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20998,7 +20998,7 @@
 		(fields_autoplaced yes)
 		(uuid "e04a0b6f-013e-4b09-8dac-52d424fc5950")
 		(property "Reference" "V4"
-			(at 218.44 190.4999 0)
+			(at 346.71 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21007,7 +21007,7 @@
 			)
 		)
 		(property "Value" "12AX7"
-			(at 218.44 193.0399 0)
+			(at 346.71 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21015,8 +21015,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
-			(at 218.948 201.93 0)
+		(property "Footprint" "Valve:Valve_ECC-83-2"
+			(at 347.218 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21025,7 +21025,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.r-type.org/pdfs/ecc83.pdf"
-			(at 212.09 191.77 0)
+			(at 340.36 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21034,7 +21034,7 @@
 			)
 		)
 		(property "Description" "double triode"
-			(at 212.09 191.77 0)
+			(at 340.36 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21106,7 +21106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 303.53 308.61 0)
 			(effects
 				(font
@@ -21172,7 +21172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 210.312 58.42 90)
 			(effects
 				(font
@@ -21401,7 +21401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 277.622 58.42 90)
 			(effects
 				(font
@@ -21556,7 +21556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 173.99 82.55 0)
 			(effects
 				(font
@@ -21621,7 +21621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 154.94 267.208 90)
 			(effects
 				(font
@@ -21760,7 +21760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 129.032 58.42 90)
 			(effects
 				(font
@@ -21838,7 +21838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 269.24 104.14 0)
 			(effects
 				(font
@@ -21905,7 +21905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 264.922 118.11 90)
 			(effects
 				(font
@@ -22041,7 +22041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 146.05 297.18 0)
 			(effects
 				(font
@@ -22268,7 +22268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 246.38 94.488 90)
 			(effects
 				(font
@@ -22541,7 +22541,7 @@
 	)
 	(symbol
 		(lib_id "Valve:ECC83")
-		(at 154.94 191.77 0)
+		(at 381 190.5 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22550,7 +22550,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa169337-d4ff-4116-a459-8056ac1a4e82")
 		(property "Reference" "V3"
-			(at 161.29 190.4999 0)
+			(at 387.35 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22559,7 +22559,7 @@
 			)
 		)
 		(property "Value" "12AX7"
-			(at 161.29 193.0399 0)
+			(at 387.35 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22567,8 +22567,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
-			(at 161.798 201.93 0)
+		(property "Footprint" "Valve:Valve_ECC-83-2"
+			(at 387.858 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22577,7 +22577,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.r-type.org/pdfs/ecc83.pdf"
-			(at 154.94 191.77 0)
+			(at 381 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22586,7 +22586,7 @@
 			)
 		)
 		(property "Description" "double triode"
-			(at 154.94 191.77 0)
+			(at 381 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22657,7 +22657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HiroFootprints:Out_Hole_3.4_1.8"
+		(property "Footprint" ""
 			(at 121.92 115.57 0)
 			(effects
 				(font

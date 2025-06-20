@@ -1,0 +1,112 @@
+(footprint "1000pF_1KV_Cer_9.4_4.0_6.4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.2 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7a8ec813-ae6b-4cf7-9d81-a9ff010050b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1000pF_1KV_Cer_9.4_4.0_6.4"
+		(at 3.2 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a7d92b33-18a1-43b4-a93c-dbbfc65f237c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 4.19 8.18 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b10fc3c-8a59-487b-ae91-1261288bec55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 4.19 8.18 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07579ca1-38bf-40dc-8912-4545bdc01fed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.5 -2)
+		(end 7.9 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2ccaae4d-1551-42b9-9b86-bae85163e463")
+	)
+	(fp_rect
+		(start -1.65 -2.15)
+		(end 8.05 2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "405a7f98-32c2-45cc-8380-cf4155f08633")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.2 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "98a07aad-9df0-4804-b70d-fa01cc0e6f0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.8 2.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "500b1a69-2e11-4a0f-b096-948ebe5b4362")
+	)
+	(pad "2" thru_hole circle
+		(at 6.4 0)
+		(size 2.8 2.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e838f529-75c0-4aa4-b73b-ba4b65b5d7f3")
+	)
+	(group ""
+		(uuid "c4c6c922-1139-45cd-b981-3765ff56b1be")
+		(members "2ccaae4d-1551-42b9-9b86-bae85163e463" "405a7f98-32c2-45cc-8380-cf4155f08633")
+	)
+	(embedded_fonts no)
+)
