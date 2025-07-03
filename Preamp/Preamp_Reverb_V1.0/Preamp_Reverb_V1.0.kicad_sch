@@ -10346,7 +10346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 377.698 316.23 0)
 			(effects
 				(font
@@ -10652,7 +10652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 161.798 201.93 0)
 			(effects
 				(font
@@ -12402,7 +12402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 286.258 91.44 0)
 			(effects
 				(font
@@ -13591,7 +13591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 378.968 91.44 0)
 			(effects
 				(font
@@ -14108,7 +14108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 356.108 316.23 0)
 			(effects
 				(font
@@ -14813,7 +14813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 399.288 316.23 0)
 			(effects
 				(font
@@ -15743,7 +15743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 137.668 91.44 0)
 			(effects
 				(font
@@ -18720,7 +18720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 218.948 91.44 0)
 			(effects
 				(font
@@ -19262,7 +19262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 218.948 201.93 0)
 			(effects
 				(font
@@ -20219,7 +20219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 420.878 316.23 0)
 			(effects
 				(font
@@ -21015,7 +21015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 347.218 200.66 0)
 			(effects
 				(font
@@ -22567,7 +22567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_ECC-83-2"
+		(property "Footprint" "IICPP_Clone_Footprints:VT9-ST-C"
 			(at 387.858 200.66 0)
 			(effects
 				(font
